@@ -1,0 +1,14 @@
+if TARGET_100ASK_IMX6ULL
+
+config SYS_BOARD
+	default "100ask_imx6ull"
+
+config SYS_VENDOR
+	default "100ask"
+
+config SYS_CONFIG_NAME
+	default "100ask_imx6ull"
+
+config SYS_TEXT_BASE
+	default 0x91000000
+endif

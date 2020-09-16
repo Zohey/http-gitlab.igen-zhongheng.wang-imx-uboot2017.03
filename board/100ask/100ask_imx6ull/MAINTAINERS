@@ -1,0 +1,7 @@
+MX6ULLEVK BOARD
+M:	Peng Fan <peng.fan@nxp.com>
+S:	Maintained
+F:	board/100ask/100ask_imx6ull/
+F:	include/configs/100ask_imx6ull.h
+F:	configs/100ask_imx6ull_pro_defconfig
+F:	configs/100ask_imx6ull_pro_emmc_defconfig

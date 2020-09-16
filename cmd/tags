@@ -1,0 +1,1643 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_TYPE	load.c	401;"	d	language:C	file:
+ATTR_SEEN_MAX	efi.c	47;"	d	language:C	file:
+BLINK	led.c	132;"	d	language:C	file:
+BLINK	led.c	134;"	d	language:C	file:
+BREAK_TYPE	load.c	403;"	d	language:C	file:
+BUBT_DEV_MMC	mvebu/bubt.c	/^	BUBT_DEV_MMC,$/;"	e	language:C	enum:bubt_devices	file:
+BUBT_DEV_NAND	mvebu/bubt.c	/^	BUBT_DEV_NAND,$/;"	e	language:C	enum:bubt_devices	file:
+BUBT_DEV_NET	mvebu/bubt.c	/^	BUBT_DEV_NET = 0,$/;"	e	language:C	enum:bubt_devices	file:
+BUBT_DEV_SPI	mvebu/bubt.c	/^	BUBT_DEV_SPI,$/;"	e	language:C	enum:bubt_devices	file:
+BUBT_DEV_USB	mvebu/bubt.c	/^	BUBT_DEV_USB,$/;"	e	language:C	enum:bubt_devices	file:
+BUBT_MAX_DEV	mvebu/bubt.c	/^	BUBT_MAX_DEV$/;"	e	language:C	enum:bubt_devices	file:
+CFLAGS_ethsw.o	Makefile	/^CFLAGS_ethsw.o := -Wno-enum-conversion$/;"	m	language:Make
+CHECK_IDE_DEVICE	pcmcia.c	84;"	d	language:C	file:
+CHECK_IDE_DEVICE	pcmcia.c	87;"	d	language:C	file:
+CMD_FDT_MAX_DUMP	fdt.c	23;"	d	language:C	file:
+COMMAND	fdc.c	52;"	d	language:C	file:
+COMPARE_ADDR	i2c.c	110;"	d	language:C	file:
+COMPARE_ADDR	i2c.c	116;"	d	language:C	file:
+COMPARE_BUS	i2c.c	109;"	d	language:C	file:
+COMPARE_BUS	i2c.c	115;"	d	language:C	file:
+CONFIG0	fdc.c	54;"	d	language:C	file:
+CONFIG1	fdc.c	57;"	d	language:C	file:
+CONFIG2	fdc.c	60;"	d	language:C	file:
+CONFIG_DEFAULT_SPI_BUS	spi.c	27;"	d	language:C	file:
+CONFIG_DEFAULT_SPI_MODE	spi.c	30;"	d	language:C	file:
+CONFIG_MMC_SPI_BUS	mmc_spi.c	13;"	d	language:C	file:
+CONFIG_MMC_SPI_CS	mmc_spi.c	16;"	d	language:C	file:
+CONFIG_MMC_SPI_MODE	mmc_spi.c	29;"	d	language:C	file:
+CONFIG_MMC_SPI_SPEED	mmc_spi.c	20;"	d	language:C	file:
+CONFIG_SYS_EEPROM_PAGE_WRITE_BITS	eeprom.c	38;"	d	language:C	file:
+CONFIG_SYS_EEPROM_PAGE_WRITE_DELAY_MS	eeprom.c	34;"	d	language:C	file:
+CONFIG_SYS_FDC_DRIVE_NUMBER	fdc.c	150;"	d	language:C	file:
+CONFIG_SYS_I2C_SPEED	eeprom.c	30;"	d	language:C	file:
+CONFIG_SYS_ISA_IO_OFFSET	fdc.c	159;"	d	language:C	file:
+CONFIG_SYS_ISA_IO_STRIDE	fdc.c	155;"	d	language:C	file:
+CONFIG_SYS_MEMTEST_SCRATCH	mem.c	30;"	d	language:C	file:
+CONFIG_SYS_MMC_ENV_DEV	mvebu/bubt.c	28;"	d	language:C	file:
+CONFIG_SYS_XIMG_LEN	ximg.c	28;"	d	language:C	file:
+DATA_TYPE	load.c	400;"	d	language:C	file:
+DDR_MIN_ADDR	ti/ddr3.c	19;"	d	language:C	file:
+DDR_REMAP_ADDR	ti/ddr3.c	22;"	d	language:C	file:
+DDR_TEST_BURST_SIZE	ti/ddr3.c	29;"	d	language:C	file:
+DEBUG	ubifs.c	13;"	d	language:C	file:
+DEBUGF	cramfs.c	29;"	d	language:C	file:
+DEBUGF	cramfs.c	31;"	d	language:C	file:
+DEBUGF	jffs2.c	100;"	d	language:C	file:
+DEBUGF	jffs2.c	98;"	d	language:C	file:
+DEBUG_CRAMFS	cramfs.c	25;"	d	language:C	file:
+DEBUG_CRAMFS	cramfs.c	26;"	d	language:C	file:
+DEBUG_DISP	display.c	12;"	d	language:C	file:
+DEBUG_JFFS	jffs2.c	94;"	d	language:C	file:
+DEBUG_JFFS	jffs2.c	95;"	d	language:C	file:
+DEFAULT_ADDR_LEN	i2c.c	129;"	d	language:C	file:
+DEFAULT_ADDR_LEN	i2c.c	131;"	d	language:C	file:
+DEFAULT_BUBT_DST	mvebu/bubt.c	696;"	d	language:C	file:
+DEFAULT_BUBT_DST	mvebu/bubt.c	698;"	d	language:C	file:
+DEFAULT_BUBT_DST	mvebu/bubt.c	700;"	d	language:C	file:
+DEFAULT_BUBT_DST	mvebu/bubt.c	702;"	d	language:C	file:
+DEFAULT_BUBT_SRC	mvebu/bubt.c	692;"	d	language:C	file:
+DEV_TYPE_NAND	ubi.c	31;"	d	language:C	file:
+DEV_TYPE_NONE	ubi.c	30;"	d	language:C	file:
+DEV_TYPE_NOR	ubi.c	33;"	d	language:C	file:
+DEV_TYPE_ONENAND	ubi.c	32;"	d	language:C	file:
+DIGEST_LENGTH	tpm.c	/^	DIGEST_LENGTH		= 20,$/;"	e	language:C	enum:__anon3	file:
+DISP_LINE_LEN	fpgad.c	28;"	d	language:C	file:
+DISP_LINE_LEN	i2c.c	121;"	d	language:C	file:
+DISP_LINE_LEN	mem.c	49;"	d	language:C	file:
+DISP_LINE_LEN	pci.c	492;"	d	language:C	file:
+DOS_FS32_TYPE_OFFSET	zfs.c	33;"	d	language:C	file:
+DOS_FS_TYPE_OFFSET	zfs.c	32;"	d	language:C	file:
+DOS_PART_MAGIC_OFFSET	zfs.c	31;"	d	language:C	file:
+DRIVE	fdc.c	53;"	d	language:C	file:
+DTL	fdc.c	65;"	d	language:C	file:
+ECC_END_ADDR1	ti/ddr3.c	25;"	d	language:C	file:
+ECC_START_ADDR1	ti/ddr3.c	23;"	d	language:C	file:
+EEPROM_ACTION_INVALID	eeprom.c	/^	EEPROM_ACTION_INVALID,$/;"	e	language:C	enum:eeprom_action	file:
+EEPROM_PAGE_OFFSET	eeprom.c	46;"	d	language:C	file:
+EEPROM_PAGE_SIZE	eeprom.c	45;"	d	language:C	file:
+EEPROM_PRINT	eeprom.c	/^	EEPROM_PRINT,$/;"	e	language:C	enum:eeprom_action	file:
+EEPROM_READ	eeprom.c	/^	EEPROM_READ,$/;"	e	language:C	enum:eeprom_action	file:
+EEPROM_UPDATE	eeprom.c	/^	EEPROM_UPDATE,$/;"	e	language:C	enum:eeprom_action	file:
+EEPROM_WRITE	eeprom.c	/^	EEPROM_WRITE,$/;"	e	language:C	enum:eeprom_action	file:
+END_CHAR	load.c	396;"	d	language:C	file:
+EQ	itest.c	22;"	d	language:C	file:
+ETHSW_EGR_VLAN_TAG_HELP	ethsw.c	83;"	d	language:C	file:
+ETHSW_FDB_HELP	ethsw.c	38;"	d	language:C	file:
+ETHSW_LEARN_HELP	ethsw.c	27;"	d	language:C	file:
+ETHSW_PORT_AGGR_HELP	ethsw.c	117;"	d	language:C	file:
+ETHSW_PORT_CONF_HELP	ethsw.c	1085;"	d	language:C	file:
+ETHSW_PORT_INGR_FLTR_HELP	ethsw.c	106;"	d	language:C	file:
+ETHSW_PORT_STATS_HELP	ethsw.c	17;"	d	language:C	file:
+ETHSW_PORT_UNTAG_HELP	ethsw.c	72;"	d	language:C	file:
+ETHSW_PVID_HELP	ethsw.c	50;"	d	language:C	file:
+ETHSW_VLAN_FDB_HELP	ethsw.c	95;"	d	language:C	file:
+ETHSW_VLAN_HELP	ethsw.c	61;"	d	language:C	file:
+ETX_CHAR	load.c	395;"	d	language:C	file:
+FDC_BASE	fdc.c	78;"	d	language:C	file:
+FDC_CAL_RETRIES	fdc.c	120;"	d	language:C	file:
+FDC_CCR	fdc.c	87;"	d	language:C	file:
+FDC_CMD_CONFIGURE	fdc.c	90;"	d	language:C	file:
+FDC_CMD_CONFIGURE_LEN	fdc.c	100;"	d	language:C	file:
+FDC_CMD_DUMP_REG	fdc.c	96;"	d	language:C	file:
+FDC_CMD_DUMP_REG_LEN	fdc.c	106;"	d	language:C	file:
+FDC_CMD_READ	fdc.c	93;"	d	language:C	file:
+FDC_CMD_READ_ID	fdc.c	95;"	d	language:C	file:
+FDC_CMD_READ_ID_LEN	fdc.c	105;"	d	language:C	file:
+FDC_CMD_READ_LEN	fdc.c	103;"	d	language:C	file:
+FDC_CMD_READ_TRACK	fdc.c	94;"	d	language:C	file:
+FDC_CMD_READ_TRACK_LEN	fdc.c	104;"	d	language:C	file:
+FDC_CMD_RECALIBRATE	fdc.c	92;"	d	language:C	file:
+FDC_CMD_RECALIBRATE_LEN	fdc.c	102;"	d	language:C	file:
+FDC_CMD_SEEK	fdc.c	97;"	d	language:C	file:
+FDC_CMD_SEEK_LEN	fdc.c	107;"	d	language:C	file:
+FDC_CMD_SENSE_INT	fdc.c	89;"	d	language:C	file:
+FDC_CMD_SENSE_INT_LEN	fdc.c	99;"	d	language:C	file:
+FDC_CMD_SPECIFY	fdc.c	91;"	d	language:C	file:
+FDC_CMD_SPECIFY_LEN	fdc.c	101;"	d	language:C	file:
+FDC_COMMAND_STRUCT	fdc.c	/^} FDC_COMMAND_STRUCT;$/;"	t	language:C	typeref:struct:__anon4	file:
+FDC_CONFIGURE	fdc.c	114;"	d	language:C	file:
+FDC_DEBUG	fdc.c	17;"	d	language:C	file:
+FDC_DIR	fdc.c	86;"	d	language:C	file:
+FDC_DOR	fdc.c	81;"	d	language:C	file:
+FDC_DSR	fdc.c	83;"	d	language:C	file:
+FDC_FIFO	fdc.c	85;"	d	language:C	file:
+FDC_FIFO_DIS	fdc.c	110;"	d	language:C	file:
+FDC_FIFO_THR	fdc.c	109;"	d	language:C	file:
+FDC_IMPLIED_SEEK	fdc.c	111;"	d	language:C	file:
+FDC_MFM_MODE	fdc.c	115;"	d	language:C	file:
+FDC_MSR	fdc.c	84;"	d	language:C	file:
+FDC_POLL_DIS	fdc.c	112;"	d	language:C	file:
+FDC_PRE_TRK	fdc.c	113;"	d	language:C	file:
+FDC_RW_RETRIES	fdc.c	119;"	d	language:C	file:
+FDC_SKIP_MODE	fdc.c	116;"	d	language:C	file:
+FDC_SRA	fdc.c	79;"	d	language:C	file:
+FDC_SRB	fdc.c	80;"	d	language:C	file:
+FDC_TDR	fdc.c	82;"	d	language:C	file:
+FDC_TIME_OUT	fdc.c	118;"	d	language:C	file:
+FD_GEO_STRUCT	fdc.c	/^} FD_GEO_STRUCT;$/;"	t	language:C	typeref:struct:__anon5	file:
+FLAG_SHOW_ALL	gpio.c	/^	FLAG_SHOW_ALL		= 1 << 0,$/;"	e	language:C	enum:__anon1	file:
+FLAG_SHOW_BANK	gpio.c	/^	FLAG_SHOW_BANK		= 1 << 1,$/;"	e	language:C	enum:__anon1	file:
+FLAG_SHOW_NEWLINE	gpio.c	/^	FLAG_SHOW_NEWLINE	= 1 << 2,$/;"	e	language:C	enum:__anon1	file:
+FPGA_DUMP	fpga.c	/^	FPGA_DUMP,$/;"	e	language:C	enum:__anon7	file:
+FPGA_INFO	fpga.c	/^	FPGA_INFO,$/;"	e	language:C	enum:__anon7	file:
+FPGA_LOAD	fpga.c	/^	FPGA_LOAD,$/;"	e	language:C	enum:__anon7	file:
+FPGA_LOADB	fpga.c	/^	FPGA_LOADB,$/;"	e	language:C	enum:__anon7	file:
+FPGA_LOADBP	fpga.c	/^	FPGA_LOADBP,$/;"	e	language:C	enum:__anon7	file:
+FPGA_LOADFS	fpga.c	/^	FPGA_LOADFS,$/;"	e	language:C	enum:__anon7	file:
+FPGA_LOADMK	fpga.c	/^	FPGA_LOADMK,$/;"	e	language:C	enum:__anon7	file:
+FPGA_LOADP	fpga.c	/^	FPGA_LOADP,$/;"	e	language:C	enum:__anon7	file:
+FPGA_NONE	fpga.c	/^	FPGA_NONE = -1,$/;"	e	language:C	enum:__anon7	file:
+GAP	fdc.c	64;"	d	language:C	file:
+GE	itest.c	27;"	d	language:C	file:
+GET_BUS_NUM	i2c.c	108;"	d	language:C	file:
+GET_BUS_NUM	i2c.c	114;"	d	language:C	file:
+GPIO_CLEAR	gpio.c	/^	GPIO_CLEAR,$/;"	e	language:C	enum:gpio_cmd	file:
+GPIO_INPUT	gpio.c	/^	GPIO_INPUT,$/;"	e	language:C	enum:gpio_cmd	file:
+GPIO_SET	gpio.c	/^	GPIO_SET,$/;"	e	language:C	enum:gpio_cmd	file:
+GPIO_TOGGLE	gpio.c	/^	GPIO_TOGGLE,$/;"	e	language:C	enum:gpio_cmd	file:
+GT	itest.c	25;"	d	language:C	file:
+HARGS	hash.c	41;"	d	language:C	file:
+HARGS	hash.c	43;"	d	language:C	file:
+HASH_SUM_LEN	mvebu/bubt.c	56;"	d	language:C	file:
+HEAD	fdc.c	59;"	d	language:C	file:
+I2C_ERR_READ	i2c.c	/^	I2C_ERR_READ,$/;"	e	language:C	enum:i2c_err_op	file:
+I2C_ERR_WRITE	i2c.c	/^	I2C_ERR_WRITE,$/;"	e	language:C	enum:i2c_err_op	file:
+I2C_RXTX_LEN	eeprom.c	42;"	d	language:C	file:
+IMAGE_VERSION_3_5_0	mvebu/bubt.c	58;"	d	language:C	file:
+IMAGE_VERSION_3_6_0	mvebu/bubt.c	57;"	d	language:C	file:
+INDEX0	tpm_test.c	24;"	d	language:C	file:
+INDEX1	tpm_test.c	25;"	d	language:C	file:
+INDEX2	tpm_test.c	26;"	d	language:C	file:
+INDEX3	tpm_test.c	27;"	d	language:C	file:
+INDEX_INITIALISED	tpm_test.c	28;"	d	language:C	file:
+KEY_DOWN	bootmenu.c	/^	KEY_DOWN,$/;"	e	language:C	enum:bootmenu_key	file:
+KEY_NONE	bootmenu.c	/^	KEY_NONE = 0,$/;"	e	language:C	enum:bootmenu_key	file:
+KEY_SELECT	bootmenu.c	/^	KEY_SELECT,$/;"	e	language:C	enum:bootmenu_key	file:
+KEY_UP	bootmenu.c	/^	KEY_UP,$/;"	e	language:C	enum:bootmenu_key	file:
+K_ESCAPE	load.c	398;"	d	language:C	file:
+LAST_TRACK	fdc.c	63;"	d	language:C	file:
+LE	itest.c	26;"	d	language:C	file:
+LED_BLINK	legacy_led.c	/^enum led_cmd { LED_ON, LED_OFF, LED_TOGGLE, LED_BLINK };$/;"	e	language:C	enum:led_cmd	file:
+LED_OFF	legacy_led.c	/^enum led_cmd { LED_ON, LED_OFF, LED_TOGGLE, LED_BLINK };$/;"	e	language:C	enum:led_cmd	file:
+LED_ON	legacy_led.c	/^enum led_cmd { LED_ON, LED_OFF, LED_TOGGLE, LED_BLINK };$/;"	e	language:C	enum:led_cmd	file:
+LED_TOGGLE	led.c	14;"	d	language:C	file:
+LED_TOGGLE	legacy_led.c	/^enum led_cmd { LED_ON, LED_OFF, LED_TOGGLE, LED_BLINK };$/;"	e	language:C	enum:led_cmd	file:
+LIMIT_DEV	pmic.c	13;"	d	language:C	file:
+LIMIT_DEVNAME	regulator.c	13;"	d	language:C	file:
+LIMIT_INFO	regulator.c	15;"	d	language:C	file:
+LIMIT_OFNAME	regulator.c	14;"	d	language:C	file:
+LIMIT_PARENT	pmic.c	14;"	d	language:C	file:
+LPCI_DEVICE	tsi148.c	20;"	d	language:C	file:
+LPCI_VENDOR	tsi148.c	19;"	d	language:C	file:
+LT	itest.c	24;"	d	language:C	file:
+L_KEYWORD	pxe.c	/^	L_KEYWORD,$/;"	e	language:C	enum:lex_state	file:
+L_NORMAL	pxe.c	/^	L_NORMAL = 0,$/;"	e	language:C	enum:lex_state	file:
+L_SLITERAL	pxe.c	/^	L_SLITERAL$/;"	e	language:C	enum:lex_state	file:
+MAIN_HDR_MAGIC	mvebu/bubt.c	32;"	d	language:C	file:
+MAKE_TPM_CMD_ENTRY	tpm.c	817;"	d	language:C	file:
+MAX_COUNT	bootmenu.c	16;"	d	language:C	file:
+MAX_ENV_SIZE	bootmenu.c	23;"	d	language:C	file:
+MAX_ENV_SIZE	nvedit.c	63;"	d	language:C	file:
+MAX_FEATURES	pcmcia.c	99;"	d	language:C	file:
+MAX_IDENT_CHARS	pcmcia.c	101;"	d	language:C	file:
+MAX_IDENT_FIELDS	pcmcia.c	102;"	d	language:C	file:
+MAX_IMAGES	armflash.c	15;"	d	language:C	file:
+MAX_LEVEL	fdt.c	21;"	d	language:C	file:
+MAX_LINE	ini.c	22;"	d	language:C	file:
+MAX_LINE	ini.c	24;"	d	language:C	file:
+MAX_NAME	ini.c	34;"	d	language:C	file:
+MAX_NAME	ini.c	36;"	d	language:C	file:
+MAX_NEST_LEVEL	pxe.c	1298;"	d	language:C	file:
+MAX_REGIONS	armflash.c	14;"	d	language:C	file:
+MAX_SECTION	ini.c	28;"	d	language:C	file:
+MAX_SECTION	ini.c	30;"	d	language:C	file:
+MAX_SPI_BYTES	spi.c	23;"	d	language:C	file:
+MAX_TFTP_PATH_LEN	pxe.c	22;"	d	language:C	file:
+MAX_TUPEL_SZ	pcmcia.c	98;"	d	language:C	file:
+MII_dump_0_to_5	mii.c	/^static void MII_dump_0_to_5($/;"	f	language:C	file:	signature:( ushort regvals[6], uchar reglo, uchar reghi)
+MII_field_desc_and_len_t	mii.c	/^} MII_field_desc_and_len_t;$/;"	t	language:C	typeref:struct:_MII_field_desc_and_len_t	file:
+MII_field_desc_t	mii.c	/^} MII_field_desc_t;$/;"	t	language:C	typeref:struct:_MII_field_desc_t	file:
+MII_reg_desc_t	mii.c	/^} MII_reg_desc_t;$/;"	t	language:C	typeref:struct:_MII_reg_desc_t	file:
+MIN_PART_SIZE	jffs2.c	113;"	d	language:C	file:
+MIN_PART_SIZE	mtdparts.c	105;"	d	language:C	file:
+MTDIDS_DEFAULT	mtdparts.c	114;"	d	language:C	file:
+MTDIDS_DEFAULT	mtdparts.c	116;"	d	language:C	file:
+MTDIDS_MAXLEN	mtdparts.c	133;"	d	language:C	file:
+MTDPARTS_DEFAULT	mtdparts.c	121;"	d	language:C	file:
+MTDPARTS_DEFAULT	mtdparts.c	123;"	d	language:C	file:
+MTDPARTS_MAXLEN	mtdparts.c	134;"	d	language:C	file:
+MTD_WRITEABLE_CMD	jffs2.c	117;"	d	language:C	file:
+MTD_WRITEABLE_CMD	mtdparts.c	109;"	d	language:C	file:
+NACK_TYPE	load.c	402;"	d	language:C	file:
+NE	itest.c	23;"	d	language:C	file:
+NEXT_PARAM	eeprom.c	346;"	d	language:C	file:
+NO_PROBE_ADDR	i2c.c	111;"	d	language:C	file:
+NO_PROBE_ADDR	i2c.c	117;"	d	language:C	file:
+OFFSET_ADJUSTMENT	cramfs.c	37;"	d	language:C	file:
+OFFSET_ADJUSTMENT	cramfs.c	39;"	d	language:C	file:
+OFFSET_NOT_SPECIFIED	jffs2.c	110;"	d	language:C	file:
+OFFSET_NOT_SPECIFIED	mtdparts.c	102;"	d	language:C	file:
+OP_AND	test.c	15;"	d	language:C	file:
+OP_FILE_EXISTS	test.c	28;"	d	language:C	file:
+OP_INT_EQ	test.c	22;"	d	language:C	file:
+OP_INT_GE	test.c	27;"	d	language:C	file:
+OP_INT_GT	test.c	26;"	d	language:C	file:
+OP_INT_LE	test.c	25;"	d	language:C	file:
+OP_INT_LT	test.c	24;"	d	language:C	file:
+OP_INT_NEQ	test.c	23;"	d	language:C	file:
+OP_INVALID	test.c	12;"	d	language:C	file:
+OP_NOT	test.c	13;"	d	language:C	file:
+OP_OR	test.c	14;"	d	language:C	file:
+OP_STR_EMPTY	test.c	16;"	d	language:C	file:
+OP_STR_EQ	test.c	18;"	d	language:C	file:
+OP_STR_GT	test.c	21;"	d	language:C	file:
+OP_STR_LT	test.c	20;"	d	language:C	file:
+OP_STR_NEMPTY	test.c	17;"	d	language:C	file:
+OP_STR_NEQ	test.c	19;"	d	language:C	file:
+PARTITION_MAXLEN	mtdparts.c	135;"	d	language:C	file:
+PART_ADD_DESC_MAXLEN	mtdparts.c	1989;"	d	language:C	file:
+PCI_DEVICE	universe.c	16;"	d	language:C	file:
+PCI_VENDOR	universe.c	15;"	d	language:C	file:
+PERMPP	tpm_test.c	367;"	d	language:C	file:
+PERMPPGL	tpm_test.c	366;"	d	language:C	file:
+PHYS_PRESENCE	tpm_test.c	29;"	d	language:C	file:
+PRESENCE	tpm_test.c	30;"	d	language:C	file:
+PRINTF	fdc.c	20;"	d	language:C	file:
+PRINTF	fdc.c	22;"	d	language:C	file:
+PRINTF	reiser.c	28;"	d	language:C	file:
+PRINTF	reiser.c	30;"	d	language:C	file:
+PRINTF	yaffs2.c	22;"	d	language:C	file:
+PRINTF	yaffs2.c	24;"	d	language:C	file:
+PXELINUX_DIR	pxe.c	266;"	d	language:C	file:
+RELOC	date.c	24;"	d	language:C	file:
+RELOC	date.c	26;"	d	language:C	file:
+SCRATCHPAD	fdt.c	22;"	d	language:C	file:
+SECTOR	fdc.c	61;"	d	language:C	file:
+SECTOR_SIZE	fdc.c	62;"	d	language:C	file:
+SEND_DATA_SIZE	load.c	680;"	d	language:C	file:
+SEND_TYPE	load.c	399;"	d	language:C	file:
+SF_TEST_HELP	sf.c	593;"	d	language:C	file:
+SF_TEST_HELP	sf.c	596;"	d	language:C	file:
+SIZE_GB	mtdparts.c	208;"	d	language:C	file:
+SIZE_KB	mtdparts.c	210;"	d	language:C	file:
+SIZE_MB	mtdparts.c	209;"	d	language:C	file:
+SIZE_REMAINING	jffs2.c	104;"	d	language:C	file:
+SIZE_REMAINING	mtdparts.c	96;"	d	language:C	file:
+SLRE_BUFSZ	setexpr.c	56;"	d	language:C	file:
+SLRE_PATSZ	setexpr.c	57;"	d	language:C	file:
+SPACE	load.c	397;"	d	language:C	file:
+SPEC_HLT	fdc.c	58;"	d	language:C	file:
+SPEC_HUTSRT	fdc.c	55;"	d	language:C	file:
+SREC3_END	load.c	311;"	d	language:C	file:
+SREC3_FORMAT	load.c	310;"	d	language:C	file:
+SREC3_START	load.c	309;"	d	language:C	file:
+SREC_BYTES_PER_RECORD	load.c	312;"	d	language:C	file:
+STACKSIZE	ti/ddr3.c	20;"	d	language:C	file:
+STAGE_CHECK	sf.c	/^	STAGE_CHECK,$/;"	e	language:C	enum:__anon2	file:
+STAGE_COUNT	sf.c	/^	STAGE_COUNT,$/;"	e	language:C	enum:__anon2	file:
+STAGE_ERASE	sf.c	/^	STAGE_ERASE,$/;"	e	language:C	enum:__anon2	file:
+STAGE_READ	sf.c	/^	STAGE_READ,$/;"	e	language:C	enum:__anon2	file:
+STAGE_WRITE	sf.c	/^	STAGE_WRITE,$/;"	e	language:C	enum:__anon2	file:
+START_CHAR	load.c	394;"	d	language:C	file:
+STATUS_0	fdc.c	67;"	d	language:C	file:
+STATUS_1	fdc.c	69;"	d	language:C	file:
+STATUS_2	fdc.c	70;"	d	language:C	file:
+STATUS_HEAD	fdc.c	72;"	d	language:C	file:
+STATUS_PCN	fdc.c	68;"	d	language:C	file:
+STATUS_SECT	fdc.c	73;"	d	language:C	file:
+STATUS_SECT_SIZE	fdc.c	74;"	d	language:C	file:
+STATUS_TRACK	fdc.c	71;"	d	language:C	file:
+TMP_ERASE	flash.c	643;"	d	language:C	file:
+TMP_ERASE	flash.c	647;"	d	language:C	file:
+TMP_ERASE	flash.c	698;"	d	language:C	file:
+TMP_PROT_OFF	flash.c	645;"	d	language:C	file:
+TMP_PROT_OFF	flash.c	649;"	d	language:C	file:
+TMP_PROT_OFF	flash.c	700;"	d	language:C	file:
+TMP_PROT_ON	flash.c	644;"	d	language:C	file:
+TMP_PROT_ON	flash.c	648;"	d	language:C	file:
+TMP_PROT_ON	flash.c	699;"	d	language:C	file:
+TPM_CHECK	tpm_test.c	13;"	d	language:C	file:
+TPM_COMMAND_NO_ARG	tpm.c	430;"	d	language:C	file:
+TPM_MAX_NV_WRITES_NOOWNER	tpm_test.c	449;"	d	language:C	file:
+TPM_PUBKEY_MAX_LENGTH	tpm.c	/^	TPM_PUBKEY_MAX_LENGTH	= 288,$/;"	e	language:C	enum:__anon3	file:
+TRACK	fdc.c	56;"	d	language:C	file:
+TSI148_DEV	tsi148.c	/^typedef struct _TSI148_DEV TSI148_DEV;$/;"	t	language:C	typeref:struct:_TSI148_DEV	file:
+TTPM_CHECK	tpm_test.c	411;"	d	language:C	file:
+T_APPEND	pxe.c	/^	T_APPEND,$/;"	e	language:C	enum:token_type	file:
+T_DEFAULT	pxe.c	/^	T_DEFAULT,$/;"	e	language:C	enum:token_type	file:
+T_EOF	pxe.c	/^	T_EOF,$/;"	e	language:C	enum:token_type	file:
+T_EOL	pxe.c	/^	T_EOL,$/;"	e	language:C	enum:token_type	file:
+T_FDT	pxe.c	/^	T_FDT,$/;"	e	language:C	enum:token_type	file:
+T_FDTDIR	pxe.c	/^	T_FDTDIR,$/;"	e	language:C	enum:token_type	file:
+T_INCLUDE	pxe.c	/^	T_INCLUDE,$/;"	e	language:C	enum:token_type	file:
+T_INITRD	pxe.c	/^	T_INITRD,$/;"	e	language:C	enum:token_type	file:
+T_INVALID	pxe.c	/^	T_INVALID$/;"	e	language:C	enum:token_type	file:
+T_IPAPPEND	pxe.c	/^	T_IPAPPEND,$/;"	e	language:C	enum:token_type	file:
+T_KERNEL	pxe.c	/^	T_KERNEL,$/;"	e	language:C	enum:token_type	file:
+T_LABEL	pxe.c	/^	T_LABEL,$/;"	e	language:C	enum:token_type	file:
+T_LINUX	pxe.c	/^	T_LINUX,$/;"	e	language:C	enum:token_type	file:
+T_LOCALBOOT	pxe.c	/^	T_LOCALBOOT,$/;"	e	language:C	enum:token_type	file:
+T_MENU	pxe.c	/^	T_MENU,$/;"	e	language:C	enum:token_type	file:
+T_ONTIMEOUT	pxe.c	/^	T_ONTIMEOUT,$/;"	e	language:C	enum:token_type	file:
+T_PROMPT	pxe.c	/^	T_PROMPT,$/;"	e	language:C	enum:token_type	file:
+T_STRING	pxe.c	/^	T_STRING,$/;"	e	language:C	enum:token_type	file:
+T_TIMEOUT	pxe.c	/^	T_TIMEOUT,$/;"	e	language:C	enum:token_type	file:
+T_TITLE	pxe.c	/^	T_TITLE,$/;"	e	language:C	enum:token_type	file:
+TlclStartupIfNeeded	tpm_test.c	/^static uint32_t TlclStartupIfNeeded(void)$/;"	f	language:C	file:	signature:(void)
+UMS_NAME_LEN	usb_mass_storage.c	51;"	d	language:C	file:
+UNI_DEV	universe.c	/^typedef struct _UNI_DEV UNI_DEV;$/;"	t	language:C	typeref:struct:_UNI_DEV	file:
+VOIDENT	tpm_test.c	497;"	d	language:C	file:
+VOIDTEST	tpm_test.c	490;"	d	language:C	file:
+XOFF_CHAR	load.c	393;"	d	language:C	file:
+XON_CHAR	load.c	392;"	d	language:C	file:
+_MII_field_desc_and_len_t	mii.c	/^typedef struct _MII_field_desc_and_len_t {$/;"	s	language:C	file:
+_MII_field_desc_t	mii.c	/^typedef struct _MII_field_desc_t {$/;"	s	language:C	file:
+_MII_reg_desc_t	mii.c	/^typedef struct _MII_reg_desc_t {$/;"	s	language:C	file:
+_TSI148_DEV	tsi148.c	/^struct _TSI148_DEV {$/;"	s	language:C	file:
+_UNI_DEV	universe.c	/^struct _UNI_DEV {$/;"	s	language:C	file:
+__led_blink	legacy_led.c	/^void __weak __led_blink(led_id_t mask, int freq)$/;"	f	language:C	signature:(led_id_t mask, int freq)
+_do_env_set	nvedit.c	/^static int _do_env_set(int flag, int argc, char * const argv[], int env_flag)$/;"	f	language:C	file:	signature:(int flag, int argc, char * const argv[], int env_flag)
+a_b	load.c	/^static char a_b[24];$/;"	v	language:C	file:
+abbrev_spec	flash.c	/^abbrev_spec (char *str, flash_info_t ** pinfo, int *psf, int *psl)$/;"	f	language:C	file:	signature:(char *str, flash_info_t ** pinfo, int *psf, int *psl)
+active	bootmenu.c	/^	int active;			\/* active menu entry *\/$/;"	m	language:C	struct:bootmenu_data	file:
+active	mvebu/bubt.c	/^	int (*active)(void);$/;"	m	language:C	struct:bubt_dev	file:
+addr	i2c.c	/^	uchar	addr;$/;"	m	language:C	struct:__anon6	file:
+addr_spec	flash.c	/^addr_spec(char *arg1, char *arg2, ulong *addr_first, ulong *addr_last)$/;"	f	language:C	file:	signature:(char *arg1, char *arg2, ulong *addr_first, ulong *addr_last)
+adjust_size_for_badblocks	nand.c	/^static void adjust_size_for_badblocks(loff_t *size, loff_t offset, int dev)$/;"	f	language:C	file:	signature:(loff_t *size, loff_t offset, int dev)
+adv	test.c	/^	int adv;$/;"	m	language:C	struct:__anon8	file:
+aes_help_text	aes.c	/^static char aes_help_text[] =$/;"	v	language:C	file:
+afs_image	armflash.c	/^struct afs_image {$/;"	s	language:C	file:
+afs_images	armflash.c	/^static struct afs_image afs_images[MAX_IMAGES];$/;"	v	language:C	typeref:struct:afs_image	file:
+afs_region	armflash.c	/^struct afs_region {$/;"	s	language:C	file:
+allocate_disk_part	gpt.c	/^static struct disk_part *allocate_disk_part(disk_partition_t *info, int partnum)$/;"	f	language:C	file:	signature:(disk_partition_t *info, int partnum)
+append	pxe.c	/^	char *append;$/;"	m	language:C	struct:pxe_label	file:
+arg	test.c	/^	int arg;$/;"	m	language:C	struct:__anon8	file:
+arg_off_size_onenand	onenand.c	/^static int arg_off_size_onenand(int argc, char * const argv[], ulong *off,$/;"	f	language:C	file:	signature:(int argc, char * const argv[], ulong *off, size_t *size)
+arithcomp	itest.c	/^static int arithcomp (char *s, char *t, int op, int w)$/;"	f	language:C	file:	signature:(char *s, char *t, int op, int w)
+attempted	pxe.c	/^	int attempted;$/;"	m	language:C	struct:pxe_label	file:
+attr_info	efi.c	/^static struct attr_info {$/;"	s	language:C	file:
+attributes	armflash.c	/^	u32 attributes;$/;"	m	language:C	struct:afs_image	file:
+aux_flags	mvebu/bubt.c	/^	u8	aux_flags;		\/*  35   *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+base_address	mem.c	/^static	ulong	base_address = 0;$/;"	v	language:C	file:
+base_ms	sf.c	/^	unsigned base_ms;$/;"	m	language:C	struct:test_info	file:
+baudrate	mvebu/bubt.c	/^	u8	baudrate;		\/*  33   *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+bedbug_init	bedbug.c	/^void bedbug_init (void)$/;"	f	language:C	signature:(void)
+bedbug_main_loop	bedbug.c	/^void bedbug_main_loop (unsigned long addr, struct pt_regs *regs)$/;"	f	language:C	signature:(unsigned long addr, struct pt_regs *regs)
+bedbug_puts	bedbug.c	/^int bedbug_puts (const char *str)$/;"	f	language:C	signature:(const char *str)
+bin_data_char	load.c	/^static void bin_data_char(char new_char)$/;"	f	language:C	file:	signature:(char new_char)
+bin_data_init	load.c	/^static void bin_data_init(void)$/;"	f	language:C	file:	signature:(void)
+bin_start_address	load.c	/^static char *bin_start_address;$/;"	v	language:C	file:
+binary_test	itest.c	/^static int binary_test(char *op, char *arg1, char *arg2, int w)$/;"	f	language:C	file:	signature:(char *op, char *arg1, char *arg2, int w)
+bitlen	spi.c	/^static int   		bitlen;$/;"	v	language:C	file:
+blk_common_cmd	blk_common.c	/^int blk_common_cmd(int argc, char * const argv[], enum if_type if_type,$/;"	f	language:C	signature:(int argc, char * const argv[], enum if_type if_type, int *cur_devnump)
+blkc_configure	blkcache.c	/^static int blkc_configure(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+blkc_reloc	blkcache.c	/^static __maybe_unused void blkc_reloc(void)$/;"	f	language:C	file:	signature:(void)
+blkc_show	blkcache.c	/^static int blkc_show(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+blnr	fdc.c	/^	unsigned long	blnr;		\/* Logical block nr *\/$/;"	m	language:C	struct:__anon4	file:
+blob_decap	blob.c	/^__weak int blob_decap(u8 *key_mod, u8 *src, u8 *dst, u32 len)$/;"	f	language:C	signature:(u8 *key_mod, u8 *src, u8 *dst, u32 len)
+blob_encap	blob.c	/^__weak int blob_encap(u8 *key_mod, u8 *src, u8 *dst, u32 len)$/;"	f	language:C	signature:(u8 *key_mod, u8 *src, u8 *dst, u32 len)
+blob_help_text	blob.c	/^static char blob_help_text[] =$/;"	v	language:C	file:
+bmp_display	bmp.c	/^int bmp_display(ulong addr, int x, int y)$/;"	f	language:C	signature:(ulong addr, int x, int y)
+bmp_info	bmp.c	/^static int bmp_info(ulong addr)$/;"	f	language:C	file:	signature:(ulong addr)
+bmp_reloc	bmp.c	/^void bmp_reloc(void) {$/;"	f	language:C	signature:(void)
+board_detail	bdinfo.c	/^void __weak board_detail(void)$/;"	f	language:C	signature:(void)
+board_show_dram	mem.c	/^__weak void board_show_dram(phys_size_t size)$/;"	f	language:C	signature:(phys_size_t size)
+boot_flash_sign	mvebu/bubt.c	/^	u32	boot_flash_sign;$/;"	m	language:C	struct:common_tim_data	file:
+boot_image_checksum	mvebu/bubt.c	/^	u32	boot_image_checksum;	\/* 16-19 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+boot_image_size	mvebu/bubt.c	/^	u32	boot_image_size;	\/* 12-15 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+boot_unattempted_labels	pxe.c	/^static void boot_unattempted_labels(cmd_tbl_t *cmdtp, struct pxe_menu *cfg)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, struct pxe_menu *cfg)
+bootefi_device_path	bootefi.c	/^static struct efi_device_path *bootefi_device_path;$/;"	v	language:C	typeref:struct:efi_device_path	file:
+bootefi_help_text	bootefi.c	/^static char bootefi_help_text[] =$/;"	v	language:C	file:
+bootefi_image_path	bootefi.c	/^static struct efi_device_path *bootefi_image_path;$/;"	v	language:C	typeref:struct:efi_device_path	file:
+booti_help_text	booti.c	/^static char booti_help_text[] =$/;"	v	language:C	file:
+booti_start	booti.c	/^static int booti_start(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[], bootm_headers_t *images)
+bootm_help_text	bootm.c	/^static char bootm_help_text[] =$/;"	v	language:C	file:
+bootm_maybe_autostart	bootm.c	/^int bootm_maybe_autostart(cmd_tbl_t *cmdtp, const char *cmd)$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, const char *cmd)
+bootmenu_autoboot_loop	bootmenu.c	/^static void bootmenu_autoboot_loop(struct bootmenu_data *menu,$/;"	f	language:C	file:	signature:(struct bootmenu_data *menu, enum bootmenu_key *key, int *esc)
+bootmenu_choice_entry	bootmenu.c	/^static char *bootmenu_choice_entry(void *data)$/;"	f	language:C	file:	signature:(void *data)
+bootmenu_create	bootmenu.c	/^static struct bootmenu_data *bootmenu_create(int delay)$/;"	f	language:C	file:	signature:(int delay)
+bootmenu_data	bootmenu.c	/^struct bootmenu_data {$/;"	s	language:C	file:
+bootmenu_destroy	bootmenu.c	/^static void bootmenu_destroy(struct bootmenu_data *menu)$/;"	f	language:C	file:	signature:(struct bootmenu_data *menu)
+bootmenu_entry	bootmenu.c	/^struct bootmenu_entry {$/;"	s	language:C	file:
+bootmenu_getoption	bootmenu.c	/^static char *bootmenu_getoption(unsigned short int n)$/;"	f	language:C	file:	signature:(unsigned short int n)
+bootmenu_key	bootmenu.c	/^enum bootmenu_key {$/;"	g	language:C	file:
+bootmenu_loop	bootmenu.c	/^static void bootmenu_loop(struct bootmenu_data *menu,$/;"	f	language:C	file:	signature:(struct bootmenu_data *menu, enum bootmenu_key *key, int *esc)
+bootmenu_print_entry	bootmenu.c	/^static void bootmenu_print_entry(void *data)$/;"	f	language:C	file:	signature:(void *data)
+bootmenu_show	bootmenu.c	/^static void bootmenu_show(int delay)$/;"	f	language:C	file:	signature:(int delay)
+bootz_help_text	bootz.c	/^static char bootz_help_text[] =$/;"	v	language:C	file:
+bootz_setup	bootz.c	/^int __weak bootz_setup(ulong image, ulong *start, ulong *end)$/;"	f	language:C	signature:(ulong image, ulong *start, ulong *end)
+bootz_start	bootz.c	/^static int bootz_start(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[], bootm_headers_t *images)
+bubt_dev	mvebu/bubt.c	/^struct bubt_dev {$/;"	s	language:C	file:
+bubt_devices	mvebu/bubt.c	/^enum bubt_devices {$/;"	g	language:C	file:
+bubt_devs	mvebu/bubt.c	/^struct bubt_dev bubt_devs[BUBT_MAX_DEV] = {$/;"	v	language:C	typeref:struct:bubt_dev
+bubt_is_dev_active	mvebu/bubt.c	/^static int bubt_is_dev_active(struct bubt_dev *dev)$/;"	f	language:C	file:	signature:(struct bubt_dev *dev)
+bubt_read_file	mvebu/bubt.c	/^static int bubt_read_file(struct bubt_dev *src)$/;"	f	language:C	file:	signature:(struct bubt_dev *src)
+bubt_verify	mvebu/bubt.c	/^static int bubt_verify(size_t image_size)$/;"	f	language:C	file:	signature:(size_t image_size)
+bubt_write_file	mvebu/bubt.c	/^static int bubt_write_file(struct bubt_dev *dst, size_t image_size)$/;"	f	language:C	file:	signature:(struct bubt_dev *dst, size_t image_size)
+buffer	ubi.c	/^static char buffer[80];$/;"	v	language:C	file:
+bug_ctx	bedbug.c	/^CPU_DEBUG_CTX bug_ctx;		\/* Bedbug context structure    *\/$/;"	v	language:C
+bus	i2c.c	/^	uchar	bus;$/;"	m	language:C	struct:__anon6	file:
+bus	spi.c	/^static unsigned int	bus;$/;"	v	language:C	file:
+bus	tsi148.c	/^	int           bus;$/;"	m	language:C	struct:_TSI148_DEV	file:
+bus	universe.c	/^	int            bus;$/;"	m	language:C	struct:_UNI_DEV	file:
+busdevfn	tsi148.c	/^	pci_dev_t     busdevfn;$/;"	m	language:C	struct:_TSI148_DEV	file:
+busdevfn	universe.c	/^	pci_dev_t      busdevfn;$/;"	m	language:C	struct:_UNI_DEV	file:
+bytes	sf.c	/^	int bytes;$/;"	m	language:C	struct:test_info	file:
+bytes_per_second	sf.c	/^static ulong bytes_per_second(unsigned int len, ulong start_ms)$/;"	f	language:C	file:	signature:(unsigned int len, ulong start_ms)
+calc_parts_list_len	gpt.c	/^static int calc_parts_list_len(int numparts)$/;"	f	language:C	file:	signature:(int numparts)
+call_bootm	spl.c	/^static int call_bootm(int argc, char * const argv[], const char *subcommand[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[], const char *subcommand[])
+cdp_update_env	net.c	/^static void cdp_update_env(void)$/;"	f	language:C	file:	signature:(void)
+check_ide_device	pcmcia.c	/^int check_ide_device (int slot)$/;"	f	language:C	signature:(int slot)
+check_image_header	mvebu/bubt.c	/^static int check_image_header(void)$/;"	f	language:C	file:	signature:(void)
+chk1	load.c	/^static int chk1(char *buffer)$/;"	f	language:C	file:	signature:(char *buffer)
+clk_help_text	clk.c	/^static char clk_help_text[] =$/;"	v	language:C	file:
+cmd	fdc.c	/^	uchar		cmd[16];	\/* cmd desc *\/$/;"	m	language:C	struct:__anon4	file:
+cmd	fdc.c	/^static FDC_COMMAND_STRUCT cmd; \/* global command struct *\/$/;"	v	language:C	file:
+cmd_blkc_sub	blkcache.c	/^static cmd_tbl_t cmd_blkc_sub[] = {$/;"	v	language:C	file:
+cmd_bmp_sub	bmp.c	/^static cmd_tbl_t cmd_bmp_sub[] = {$/;"	v	language:C	file:
+cmd_bootm_sub	bootm.c	/^static cmd_tbl_t cmd_bootm_sub[] = {$/;"	v	language:C	file:
+cmd_bootstage_sub	bootstage.c	/^static cmd_tbl_t cmd_bootstage_sub[] = {$/;"	v	language:C	file:
+cmd_clk_sub	clk.c	/^static cmd_tbl_t cmd_clk_sub[] = {$/;"	v	language:C	file:
+cmd_cpu_sub	cpu.c	/^static cmd_tbl_t cmd_cpu_sub[] = {$/;"	v	language:C	file:
+cmd_cros_tpm_sub	tpm_test.c	/^static cmd_tbl_t cmd_cros_tpm_sub[] = {$/;"	v	language:C	file:
+cmd_env_sub	nvedit.c	/^static cmd_tbl_t cmd_env_sub[] = {$/;"	v	language:C	file:
+cmd_func_offset	ethsw.c	/^	int cmd_func_offset;$/;"	m	language:C	struct:keywords_to_function	file:
+cmd_host_sub	host.c	/^static cmd_tbl_t cmd_host_sub[] = {$/;"	v	language:C	file:
+cmd_i2c_set_bus_num	i2c.c	/^static int cmd_i2c_set_bus_num(unsigned int busnum)$/;"	f	language:C	file:	signature:(unsigned int busnum)
+cmd_i2c_sub	i2c.c	/^static cmd_tbl_t cmd_i2c_sub[] = {$/;"	v	language:C	file:
+cmd_keyword	ethsw.c	/^	enum ethsw_keyword_id cmd_keyword[ETHSW_MAX_CMD_PARAMS];$/;"	m	language:C	struct:keywords_to_function	typeref:enum:keywords_to_function::ethsw_keyword_id	file:
+cmd_keyword	ethsw.c	/^	int cmd_keyword[ETHSW_MAX_CMD_PARAMS];$/;"	m	language:C	struct:keywords_optional	file:
+cmd_keywords_check	ethsw.c	/^static void cmd_keywords_check(struct ethsw_command_def *parsed_cmd,$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd, int *argc_val)
+cmd_keywords_opt_check	ethsw.c	/^static void cmd_keywords_opt_check(const struct ethsw_command_def *parsed_cmd,$/;"	f	language:C	file:	signature:(const struct ethsw_command_def *parsed_cmd, int *argc_val)
+cmd_mmc	mmc.c	/^static cmd_tbl_t cmd_mmc[] = {$/;"	v	language:C	file:
+cmd_onenand_sub	onenand.c	/^static cmd_tbl_t cmd_onenand_sub[] = {$/;"	v	language:C	file:
+cmd_opt_def	ethsw.c	/^} cmd_opt_def[] = {$/;"	v	language:C	typeref:struct:keywords_optional
+cmd_pxe_sub	pxe.c	/^static cmd_tbl_t cmd_pxe_sub[] = {$/;"	v	language:C	file:
+cmd_remoteproc_sub	remoteproc.c	/^static cmd_tbl_t cmd_remoteproc_sub[] = {$/;"	v	language:C	file:
+cmd_rpmb	mmc.c	/^static cmd_tbl_t cmd_rpmb[] = {$/;"	v	language:C	file:
+cmd_sound_sub	sound.c	/^static cmd_tbl_t cmd_sound_sub[] = {$/;"	v	language:C	file:
+cmd_spl_export_sub	spl.c	/^static cmd_tbl_t cmd_spl_export_sub[] = {$/;"	v	language:C	file:
+cmd_spl_sub	spl.c	/^static cmd_tbl_t cmd_spl_sub[] = {$/;"	v	language:C	file:
+cmd_ubifs_umount	ubifs.c	/^void cmd_ubifs_umount(void)$/;"	f	language:C	signature:(void)
+cmdlen	fdc.c	/^	uchar		cmdlen;		\/* cmd length *\/$/;"	m	language:C	struct:__anon4	file:
+cnvrt2	date.c	/^static int cnvrt2 (const char *str, int *valp)$/;"	f	language:C	file:	signature:(const char *str, int *valp)
+command	bootmenu.c	/^	char *command;			\/* hush command of entry *\/$/;"	m	language:C	struct:bootmenu_entry	file:
+command_def_init	ethsw.c	/^static void command_def_init(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+common_diskboot	disk.c	/^int common_diskboot(cmd_tbl_t *cmdtp, const char *intf, int argc,$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, const char *intf, int argc, char *const argv[])
+common_tim_data	mvebu/bubt.c	/^struct common_tim_data {$/;"	s	language:C	file:
+compute_crc	armflash.c	/^static u32 compute_crc(ulong start, u32 len)$/;"	f	language:C	file:	signature:(ulong start, u32 len)
+confirm_key_prog	mmc.c	/^static int confirm_key_prog(void)$/;"	f	language:C	file:	signature:(void)
+confirm_prog	fuse.c	/^static int confirm_prog(void)$/;"	f	language:C	file:	signature:(void)
+constraint	regulator.c	/^static int constraint(const char *name, int val, const char *val_name)$/;"	f	language:C	file:	signature:(const char *name, int val, const char *val_name)
+copy_fdt	bootefi.c	/^static void *copy_fdt(void *fdt)$/;"	f	language:C	file:	signature:(void *fdt)
+count	bootmenu.c	/^	int count;			\/* total count of menu entries *\/$/;"	m	language:C	struct:bootmenu_data	file:
+cpu_cmd	mp.c	/^cpu_cmd(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+cpu_feature_name	cpu.c	/^static const char *cpu_feature_name[CPU_FEAT_COUNT] = {$/;"	v	language:C	file:
+cpu_help_text	mp.c	/^static char cpu_help_text[] =$/;"	v	language:C	file:
+cpu_status_all	mp.c	/^static int cpu_status_all(void)$/;"	f	language:C	file:	signature:(void)
+cramfs_check	jffs2.c	138;"	d	language:C	file:
+cramfs_info	jffs2.c	141;"	d	language:C	file:
+cramfs_load	jffs2.c	139;"	d	language:C	file:
+cramfs_ls	jffs2.c	140;"	d	language:C	file:
+create_call_list	trace.c	/^static int create_call_list(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+create_func_list	trace.c	/^static int create_func_list(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+create_gpt_partitions_list	gpt.c	/^static int create_gpt_partitions_list(int numparts, const char *guid,$/;"	f	language:C	file:	signature:(int numparts, const char *guid, char *partitions_list)
+cros_ec_decode_region	cros_ec.c	/^static int cros_ec_decode_region(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+cs	spi.c	/^static unsigned int	cs;$/;"	v	language:C	file:
+curr_dev_and_platdata	regulator.c	/^static int curr_dev_and_platdata(struct udevice **devp,$/;"	f	language:C	file:	signature:(struct udevice **devp, struct dm_regulator_uclass_platdata **uc_pdata, bool allow_type_fixed)
+curr_device	ide.c	/^static int curr_device;$/;"	v	language:C	file:
+curr_device	mmc.c	/^static int curr_device = -1;$/;"	v	language:C	file:
+currdev	pmic.c	/^static struct udevice *currdev;$/;"	v	language:C	typeref:struct:udevice	file:
+currdev	regulator.c	/^static struct udevice *currdev;$/;"	v	language:C	typeref:struct:udevice	file:
+current_mtd_dev	jffs2.c	/^struct mtd_device *current_mtd_dev = NULL;$/;"	v	language:C	typeref:struct:mtd_device
+current_mtd_dev	mtdparts.c	/^struct mtd_device *current_mtd_dev = NULL;$/;"	v	language:C	typeref:struct:mtd_device
+current_mtd_partnum	jffs2.c	/^u8 current_mtd_partnum = 0;$/;"	v	language:C
+current_mtd_partnum	mtdparts.c	/^u8 current_mtd_partnum = 0;$/;"	v	language:C
+current_save	mtdparts.c	/^static void current_save(void)$/;"	f	language:C	file:	signature:(void)
+data_gz	config_data_gz.h	/^static const char data_gz[] =$/;"	v	language:C++
+data_size	config_data_size.h	/^static const size_t data_size = $/;"	v	language:C++
+ddr_check_ecc_status	ti/ddr3.c	/^static void ddr_check_ecc_status(void)$/;"	f	language:C	file:	signature:(void)
+ddr_memory_compare	ti/ddr3.c	/^static int ddr_memory_compare(u32 address1, u32 address2, u32 size)$/;"	f	language:C	file:	signature:(u32 address1, u32 address2, u32 size)
+ddr_memory_ecc_err	ti/ddr3.c	/^static int ddr_memory_ecc_err(u32 addr, u32 ecc_err)$/;"	f	language:C	file:	signature:(u32 addr, u32 ecc_err)
+ddr_memory_test	ti/ddr3.c	/^static int ddr_memory_test(u32 start_address, u32 end_address, int quick)$/;"	f	language:C	file:	signature:(u32 start_address, u32 end_address, int quick)
+decode_bits	i2c.c	/^static void decode_bits (u_char const b, char const *str[], int const do_once)$/;"	f	language:C	file:	signature:(u_char const b, char const *str[], int const do_once)
+default_label	pxe.c	/^	char *default_label;$/;"	m	language:C	struct:pxe_menu	file:
+default_tm	date.c	/^static struct rtc_time default_tm = { 0, 0, 0, 1, 1, 2000, 6, 0, 0 };$/;"	v	language:C	typeref:struct:rtc_time	file:
+del_gpt_info	gpt.c	/^static void del_gpt_info(void)$/;"	f	language:C	file:	signature:(void)
+delay	bootmenu.c	/^	int delay;			\/* delay for autoboot *\/$/;"	m	language:C	struct:bootmenu_data	file:
+delete_partition	mtdparts.c	/^static int delete_partition(const char *id)$/;"	f	language:C	file:	signature:(const char *id)
+demo_commands	demo.c	/^static cmd_tbl_t demo_commands[] = {$/;"	v	language:C	file:
+demo_dev	demo.c	/^struct udevice *demo_dev;$/;"	v	language:C	typeref:struct:udevice
+desc_and_len_tbl	mii.c	/^static const MII_field_desc_and_len_t desc_and_len_tbl[] = {$/;"	v	language:C	file:
+destroy_pxe_menu	pxe.c	/^static void destroy_pxe_menu(struct pxe_menu *cfg)$/;"	f	language:C	file:	signature:(struct pxe_menu *cfg)
+dev	tsi148.c	/^static TSI148_DEV *dev;$/;"	v	language:C	file:
+dev	universe.c	/^static UNI_DEV   *dev;$/;"	v	language:C	file:
+device_add	mtdparts.c	/^static void device_add(struct mtd_device *dev)$/;"	f	language:C	file:	signature:(struct mtd_device *dev)
+device_del	mtdparts.c	/^static int device_del(struct mtd_device *dev)$/;"	f	language:C	file:	signature:(struct mtd_device *dev)
+device_delall	mtdparts.c	/^static int device_delall(struct list_head *head)$/;"	f	language:C	file:	signature:(struct list_head *head)
+device_find	mtdparts.c	/^struct mtd_device *device_find(u8 type, u8 num)$/;"	f	language:C	signature:(u8 type, u8 num)
+device_parse	mtdparts.c	/^static int device_parse(const char *const mtd_dev, const char **ret, struct mtd_device **retdev)$/;"	f	language:C	file:	signature:(const char *const mtd_dev, const char **ret, struct mtd_device **retdev)
+devices	mtdparts.c	/^static struct list_head devices;$/;"	v	language:C	typeref:struct:list_head	file:
+din	spi.c	/^static uchar 		din[MAX_SPI_BYTES];$/;"	v	language:C	file:
+dis_last_addr	bedbug.c	/^ulong dis_last_addr = 0;	\/* Last address disassembled   *\/$/;"	v	language:C
+dis_last_len	bedbug.c	/^ulong dis_last_len = 20;	\/* Default disassembler length *\/$/;"	v	language:C
+display_ubi_info	ubi.c	/^static void display_ubi_info(struct ubi_device *ubi)$/;"	f	language:C	file:	signature:(struct ubi_device *ubi)
+display_volume_info	ubi.c	/^static void display_volume_info(struct ubi_device *ubi)$/;"	f	language:C	file:	signature:(struct ubi_device *ubi)
+dma	fdc.c	/^	uchar		dma;		\/* if > 0 dma enabled *\/$/;"	m	language:C	struct:__anon4	file:
+do_aes	aes.c	/^static int do_aes(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_afs	armflash.c	/^static int do_afs(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bdinfo	bdinfo.c	/^int do_bdinfo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bdinfo	bdinfo.c	/^static int do_bdinfo(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_asm	bedbug.c	/^int do_bedbug_asm (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_break	bedbug.c	/^int do_bedbug_break (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_breakpoint	bedbug.c	/^void do_bedbug_breakpoint (struct pt_regs *regs)$/;"	f	language:C	signature:(struct pt_regs *regs)
+do_bedbug_continue	bedbug.c	/^int do_bedbug_continue (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_dis	bedbug.c	/^int do_bedbug_dis (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_next	bedbug.c	/^int do_bedbug_next (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_rdump	bedbug.c	/^int do_bedbug_rdump (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_stack	bedbug.c	/^int do_bedbug_stack (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bedbug_step	bedbug.c	/^int do_bedbug_step (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_blkcache	blkcache.c	/^static int do_blkcache(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_blob	blob.c	/^static int do_blob(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_bmp	bmp.c	/^static int do_bmp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bmp_display	bmp.c	/^static int do_bmp_display(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_bmp_info	bmp.c	/^static int do_bmp_info(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_boostage	bootstage.c	/^static int do_boostage(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootd	bootm.c	/^int do_bootd(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootefi	bootefi.c	/^static int do_bootefi(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootefi_bootmgr_exec	bootefi.c	/^static int do_bootefi_bootmgr_exec(unsigned long fdt_addr)$/;"	f	language:C	file:	signature:(unsigned long fdt_addr)
+do_bootefi_exec	bootefi.c	/^static efi_status_t do_bootefi_exec(void *efi, void *fdt,$/;"	f	language:C	file:	signature:(void *efi, void *fdt, struct efi_device_path *device_path, struct efi_device_path *image_path)
+do_bootelf	elf.c	/^int do_bootelf(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootelf_exec	elf.c	/^static unsigned long do_bootelf_exec(ulong (*entry)(int, char * const[]),$/;"	f	language:C	file:	signature:(ulong (entry)int, char * const[]), int argc, char * const argv[])
+do_booti	booti.c	/^int do_booti(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootm	bootm.c	/^int do_bootm(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootm_subcommand	bootm.c	/^static int do_bootm_subcommand(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootmenu	bootmenu.c	/^int do_bootmenu(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_bootp	net.c	/^static int do_bootp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootstage_report	bootstage.c	/^static int do_bootstage_report(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootstage_stash	bootstage.c	/^static int do_bootstage_stash(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootvx	elf.c	/^int do_bootvx(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_bootz	bootz.c	/^int do_bootz(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_btrsubvol	btrfs.c	/^int do_btrsubvol(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_bubt_cmd	mvebu/bubt.c	/^int do_bubt_cmd(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_caam	cmd_fsl_caam.c	/^static int do_caam(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_cbfs_fsinfo	cbfs.c	/^static int do_cbfs_fsinfo(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_cbfs_fsload	cbfs.c	/^static int do_cbfs_fsload(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_cbfs_init	cbfs.c	/^static int do_cbfs_init(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_cbfs_ls	cbfs.c	/^static int do_cbfs_ls(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_cdp	net.c	/^int do_cdp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_checksum32	mvebu/bubt.c	/^u32 do_checksum32(u32 *start, int32_t len)$/;"	f	language:C	signature:(u32 *start, int32_t len)
+do_chpart	mtdparts.c	/^static int do_chpart(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_clk	clk.c	/^static int do_clk(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_clk_dump	clk.c	/^static int do_clk_dump(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_config	config.c	/^static int do_config(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_coninfo	console.c	/^static int do_coninfo(cmd_tbl_t *cmd, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmd, int flag, int argc, char * const argv[])
+do_cpu	cpu.c	/^static int do_cpu(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_cpu_detail	cpu.c	/^static int do_cpu_detail(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_cpu_list	cpu.c	/^static int do_cpu_list(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_cramfs_load	cramfs.c	/^int do_cramfs_load(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_cramfs_ls	cramfs.c	/^int do_cramfs_ls(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_cros_ec	cros_ec.c	/^static int do_cros_ec(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_current	regulator.c	/^static int do_current(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dataflash_mmc_mux	dataflash_mmc_mux.c	/^int do_dataflash_mmc_mux (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_date	date.c	/^static int do_date(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dcache	cache.c	/^static int do_dcache(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ddr_test	ti/ddr3.c	/^static int do_ddr_test(cmd_tbl_t *cmdtp,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_demo	demo.c	/^static int do_demo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_demo_hello	demo.c	/^static int do_demo_hello(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_demo_light	demo.c	/^static int do_demo_light(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_demo_list	demo.c	/^int do_demo_list(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_demo_status	demo.c	/^static int do_demo_status(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dev	pmic.c	/^static int do_dev(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dev	regulator.c	/^static int do_dev(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dfu	dfu.c	/^static int do_dfu(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dhcp	net.c	/^static int do_dhcp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_diag	diag.c	/^int do_diag (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_disable	regulator.c	/^static int do_disable(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_disk_guid	gpt.c	/^static int do_disk_guid(struct blk_desc *dev_desc, char * const namestr)$/;"	f	language:C	file:	signature:(struct blk_desc *dev_desc, char * const namestr)
+do_diskboot	ide.c	/^int do_diskboot(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_display	display.c	/^int do_display (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dns	net.c	/^int do_dns(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_dump	pmic.c	/^static int do_dump(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_echo	echo.c	/^static int do_echo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_echo	load.c	/^static int do_echo = 1;$/;"	v	language:C	file:
+do_edid	i2c.c	/^int do_edid(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_eeprom	eeprom.c	/^int do_eeprom(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_efi	efi.c	/^static int do_efi(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_efi_mem	efi.c	/^static int do_efi_mem(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_enable	regulator.c	/^static int do_enable(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env	nvedit.c	/^static int do_env(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_ask	nvedit.c	/^int do_env_ask(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_callback	nvedit.c	/^int do_env_callback(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_default	nvedit.c	/^static int do_env_default(cmd_tbl_t *cmdtp, int __flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int __flag, int argc, char * const argv[])
+do_env_delete	nvedit.c	/^static int do_env_delete(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_edit	nvedit.c	/^static int do_env_edit(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_exists	nvedit.c	/^static int do_env_exists(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_export	nvedit.c	/^static int do_env_export(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_flags	nvedit.c	/^int do_env_flags(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_grep	nvedit.c	/^static int do_env_grep(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_import	nvedit.c	/^static int do_env_import(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_print	nvedit.c	/^static int do_env_print(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_save	nvedit.c	/^static int do_env_save(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_env_set	nvedit.c	/^static int do_env_set(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ethsw	ethsw.c	/^static int do_ethsw(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_exit	exit.c	/^static int do_exit(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ext2load	ext2.c	/^int do_ext2load(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ext2ls	ext2.c	/^static int do_ext2ls(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ext4_load	ext4.c	/^int do_ext4_load(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ext4_ls	ext4.c	/^int do_ext4_ls(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ext4_size	ext4.c	/^int do_ext4_size(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ext4_write	ext4.c	/^int do_ext4_write(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_false	test.c	/^static int do_false(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fastboot	fastboot.c	/^static int do_fastboot(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_fat_fsinfo	fat.c	/^static int do_fat_fsinfo(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fat_fsload	fat.c	/^int do_fat_fsload (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fat_fswrite	fat.c	/^static int do_fat_fswrite(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fat_ls	fat.c	/^static int do_fat_ls(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fat_size	fat.c	/^int do_fat_size(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fdcboot	fdc.c	/^int do_fdcboot (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fdt	fdt.c	/^static int do_fdt(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fitupd	fitupd.c	/^static int do_fitupd(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_flerase	flash.c	/^static int do_flerase(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_flinfo	flash.c	/^static int do_flinfo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fpga	fpga.c	/^int do_fpga(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_fpga_md	fpgad.c	/^int do_fpga_md(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_frd	mfsl.c	/^int do_frd (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_fs_uuid_wrapper	fs_uuid.c	/^static int do_fs_uuid_wrapper(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fsp	x86/fsp.c	/^static int do_fsp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fstype_wrapper	fs.c	/^static int do_fstype_wrapper(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_fuse	fuse.c	/^static int do_fuse(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_fwr	mfsl.c	/^int do_fwr (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_get_any	pxe.c	/^static int do_get_any(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)
+do_get_ext2	pxe.c	/^static int do_get_ext2(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)
+do_get_fat	pxe.c	/^static int do_get_fat(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)
+do_get_gpt_info	gpt.c	/^static int do_get_gpt_info(struct blk_desc *dev_desc)$/;"	f	language:C	file:	signature:(struct blk_desc *dev_desc)
+do_get_tftp	pxe.c	/^static int do_get_tftp(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr)
+do_getfile	pxe.c	/^static int (*do_getfile)(cmd_tbl_t *cmdtp, const char *file_path, char *file_addr);$/;"	v	language:C	file:
+do_gettime	gettime.c	/^static int do_gettime(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_go	boot.c	/^static int do_go(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_go_exec	boot.c	/^unsigned long do_go_exec(ulong (*entry)(int, char * const []), int argc,$/;"	f	language:C	signature:(ulong (entry)int, char * const []), int argc, char * const argv[])
+do_gpio	gpio.c	/^static int do_gpio(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_gpio_status	gpio.c	/^static int do_gpio_status(bool all, const char *gpio_name)$/;"	f	language:C	file:	signature:(bool all, const char *gpio_name)
+do_gpt	gpt.c	/^static int do_gpt(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_gzwrite	unzip.c	/^static int do_gzwrite(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_hash	hash.c	/^static int do_hash(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_hdr	x86/fsp.c	/^static int do_hdr(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_help	help.c	/^static int do_help(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_hob	x86/fsp.c	/^static int do_hob(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host	host.c	/^static int do_host(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_bind	host.c	/^static int do_host_bind(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_dev	host.c	/^static int do_host_dev(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_info	host.c	/^static int do_host_info(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_load	host.c	/^static int do_host_load(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_ls	host.c	/^static int do_host_ls(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_save	host.c	/^static int do_host_save(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_host_size	host.c	/^static int do_host_size(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c	i2c.c	/^static int do_i2c(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_i2c_bus_num	i2c.c	/^static int do_i2c_bus_num(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_bus_speed	i2c.c	/^static int do_i2c_bus_speed(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_i2c_crc	i2c.c	/^static int do_i2c_crc (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_flags	i2c.c	/^static int do_i2c_flags(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_i2c_loop	i2c.c	/^static int do_i2c_loop(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_md	i2c.c	/^static int do_i2c_md ( cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:( cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_mm	i2c.c	/^static int do_i2c_mm(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_i2c_mw	i2c.c	/^static int do_i2c_mw ( cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:( cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_nm	i2c.c	/^static int do_i2c_nm(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_i2c_olen	i2c.c	/^static int do_i2c_olen(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_i2c_probe	i2c.c	/^static int do_i2c_probe (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_read	i2c.c	/^static int do_i2c_read ( cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:( cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_reset	i2c.c	/^static int do_i2c_reset(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_i2c_show_bus	i2c.c	/^static int do_i2c_show_bus(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_i2c_write	i2c.c	/^static int do_i2c_write(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_icache	cache.c	/^static int do_icache(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ide	ide.c	/^int do_ide(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_imgextract	ximg.c	/^do_imgextract(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_iminfo	bootm.c	/^static int do_iminfo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_imls	bootm.c	/^static int do_imls(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_imls_nand	bootm.c	/^static int do_imls_nand(void)$/;"	f	language:C	file:	signature:(void)
+do_imls_nor	bootm.c	/^static int do_imls_nor(void)$/;"	f	language:C	file:	signature:(void)
+do_info	regulator.c	/^static int do_info(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ini	ini.c	/^static int do_ini(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_init	sound.c	/^static int do_init(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_interrupts	irq.c	/^static int do_interrupts(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_io_iod	io.c	/^int do_io_iod(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_io_iow	io.c	/^int do_io_iow(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_iotrace	iotrace.c	/^int do_iotrace(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_itest	itest.c	/^static int do_itest(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_jffs2_fsinfo	jffs2.c	/^int do_jffs2_fsinfo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_jffs2_fsload	jffs2.c	/^int do_jffs2_fsload(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_jffs2_ls	jffs2.c	/^int do_jffs2_ls(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_led	led.c	/^int do_led(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_legacy_led	legacy_led.c	/^int do_legacy_led(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_license	license.c	/^static int do_license(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_link_local	net.c	/^static int do_link_local(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_list	pmic.c	/^static int do_list(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_list	regulator.c	/^static int do_list(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_load_serial	load.c	/^static int do_load_serial(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_load_serial_bin	load.c	/^static int do_load_serial_bin(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_load_wrapper	fs.c	/^static int do_load_wrapper(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_log	log.c	/^static int do_log(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_log_format	log.c	/^static int do_log_format(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_log_level	log.c	/^static int do_log_level(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_log_rec	log.c	/^static int do_log_rec(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ls_wrapper	fs.c	/^static int do_ls_wrapper(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_lzmadec	lzmadec.c	/^static int do_lzmadec(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_md5sum	md5sum.c	/^int do_md5sum(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_md5sum	md5sum.c	/^static int do_md5sum(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mdio	mdio.c	/^static int do_mdio(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_base	mem.c	/^static int do_mem_base(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_cmp	mem.c	/^static int do_mem_cmp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_cp	mem.c	/^static int do_mem_cp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_crc	mem.c	/^static int do_mem_crc(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_info	mem.c	/^static int do_mem_info(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_loop	mem.c	/^static int do_mem_loop(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_loopw	mem.c	/^static int do_mem_loopw(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_md	mem.c	/^static int do_mem_md(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_mdc	mem.c	/^static int do_mem_mdc(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_mm	mem.c	/^static int do_mem_mm(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_mtest	mem.c	/^static int do_mem_mtest(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_mw	mem.c	/^static int do_mem_mw(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_mwc	mem.c	/^static int do_mem_mwc(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mem_nm	mem.c	/^static int do_mem_nm(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mii	mii.c	/^static int do_mii(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_bkops_enable	mmc.c	/^static int do_mmc_bkops_enable(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_boot_resize	mmc.c	/^static int do_mmc_boot_resize(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_bootbus	mmc.c	/^static int do_mmc_bootbus(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_dev	mmc.c	/^static int do_mmc_dev(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_erase	mmc.c	/^static int do_mmc_erase(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_hwpartition	mmc.c	/^static int do_mmc_hwpartition(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_list	mmc.c	/^static int do_mmc_list(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_part	mmc.c	/^static int do_mmc_part(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_partconf	mmc.c	/^static int do_mmc_partconf(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_read	mmc.c	/^static int do_mmc_read(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_rescan	mmc.c	/^static int do_mmc_rescan(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_rst_func	mmc.c	/^static int do_mmc_rst_func(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_setdsr	mmc.c	/^static int do_mmc_setdsr(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_spi	mmc_spi.c	/^static int do_mmc_spi(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmc_write	mmc.c	/^static int do_mmc_write(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcinfo	mmc.c	/^static int do_mmcinfo(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcops	mmc.c	/^static int do_mmcops(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcrpmb	mmc.c	/^static int do_mmcrpmb(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcrpmb_counter	mmc.c	/^static int do_mmcrpmb_counter(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcrpmb_key	mmc.c	/^static int do_mmcrpmb_key(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcrpmb_read	mmc.c	/^static int do_mmcrpmb_read(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mmcrpmb_write	mmc.c	/^static int do_mmcrpmb_write(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mode	regulator.c	/^static int do_mode(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mtdparts	mtdparts.c	/^static int do_mtdparts(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mtrr	x86/mtrr.c	/^static int do_mtrr(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_mtrr_list	x86/mtrr.c	/^static int do_mtrr_list(void)$/;"	f	language:C	file:	signature:(void)
+do_mtrr_set	x86/mtrr.c	/^static int do_mtrr_set(uint reg, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(uint reg, int argc, char * const argv[])
+do_nand	nand.c	/^static int do_nand(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_nand_env_oob	nand.c	/^int do_nand_env_oob(cmd_tbl_t *cmdtp, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int argc, char *const argv[])
+do_nand_status	nand.c	/^static void do_nand_status(struct mtd_info *mtd)$/;"	f	language:C	file:	signature:(struct mtd_info *mtd)
+do_nandboot	nand.c	/^static int do_nandboot(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_nfs	net.c	/^static int do_nfs(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_nvme	nvme.c	/^static int do_nvme(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_onenand	onenand.c	/^static int do_onenand(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_bad	onenand.c	/^static int do_onenand_bad(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_dump	onenand.c	/^static int do_onenand_dump(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_erase	onenand.c	/^static int do_onenand_erase(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_info	onenand.c	/^static int do_onenand_info(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_markbad	onenand.c	/^static int do_onenand_markbad(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_read	onenand.c	/^static int do_onenand_read(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_test	onenand.c	/^static int do_onenand_test(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_onenand_write	onenand.c	/^static int do_onenand_write(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_part	part.c	/^static int do_part(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_part_list	part.c	/^static int do_part_list(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_part_size	part.c	/^static int do_part_size(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_part_start	part.c	/^static int do_part_start(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_part_uuid	part.c	/^static int do_part_uuid(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_pci	pci.c	/^static int do_pci(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ping	net.c	/^static int do_ping(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_pinit	pcmcia.c	/^int do_pinit (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_play	sound.c	/^static int do_play(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_pmic	pmic.c	/^static int do_pmic(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_print_stats	iotrace.c	/^static void do_print_stats(void)$/;"	f	language:C	file:	signature:(void)
+do_protect	flash.c	/^static int do_protect(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_pxe	pxe.c	/^static int do_pxe(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_pxe_boot	pxe.c	/^do_pxe_boot(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_pxe_get	pxe.c	/^do_pxe_get(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_qemu_fw	qfw.c	/^static int do_qemu_fw(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_rarpb	net.c	/^int do_rarpb(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_raw_read	read.c	/^int do_raw_read(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_read	pmic.c	/^static int do_read(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_read_write	cros_ec.c	/^static int do_read_write(struct cros_ec_dev *dev, int is_write, int argc,$/;"	f	language:C	file:	signature:(struct cros_ec_dev *dev, int is_write, int argc, char * const argv[])
+do_reginfo	reginfo.c	/^static int do_reginfo(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_regulator	regulator.c	/^static int do_regulator(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_reiserload	reiser.c	/^int do_reiserload (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_reiserls	reiser.c	/^int do_reiserls (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_remoteproc	remoteproc.c	/^static int do_remoteproc(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_remoteproc_list	remoteproc.c	/^static int do_remoteproc_list(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_remoteproc_load	remoteproc.c	/^static int do_remoteproc_load(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_remoteproc_wrapper	remoteproc.c	/^static int do_remoteproc_wrapper(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_rename_gpt_parts	gpt.c	/^static int do_rename_gpt_parts(struct blk_desc *dev_desc, char *subcomm,$/;"	f	language:C	file:	signature:(struct blk_desc *dev_desc, char *subcomm, char *name1, char *name2)
+do_rockusb	rockusb.c	/^static int do_rockusb(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_rproc_init	remoteproc.c	/^static int do_rproc_init(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_rspr	mfsl.c	/^int do_rspr (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_sata	sata.c	/^static int do_sata(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_save_serial	load.c	/^int do_save_serial (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_save_wrapper	fs.c	/^static int do_save_wrapper(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_scsi	scsi.c	/^static int do_scsi(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_scsiboot	scsi.c	/^static int do_scsiboot(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_sdp	usb_gadget_sdp.c	/^static int do_sdp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_sdram	i2c.c	/^static int do_sdram (cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t * cmdtp, int flag, int argc, char * const argv[])
+do_set_buffer	iotrace.c	/^static int do_set_buffer(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_setexpr	setexpr.c	/^static int do_setexpr(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_sha1sum	sha1sum.c	/^int do_sha1sum(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_size_wrapper	fs.c	/^static int do_size_wrapper(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_sleep	misc.c	/^static int do_sleep(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_sntp	net.c	/^int do_sntp(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_sound	sound.c	/^static int do_sound(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_source	source.c	/^static int do_source(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_spi	spi.c	/^int do_spi (cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_spi_flash	sf.c	/^static int do_spi_flash(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_spi_flash_erase	sf.c	/^static int do_spi_flash_erase(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_spi_flash_probe	sf.c	/^static int do_spi_flash_probe(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_spi_flash_read_write	sf.c	/^static int do_spi_flash_read_write(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_spi_flash_test	sf.c	/^static int do_spi_flash_test(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_spi_protect	sf.c	/^static int do_spi_protect(int argc, char * const argv[])$/;"	f	language:C	file:	signature:(int argc, char * const argv[])
+do_spi_xfer	spi.c	/^static int do_spi_xfer(int bus, int cs)$/;"	f	language:C	file:	signature:(int bus, int cs)
+do_spl	spl.c	/^static int do_spl(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_status	regulator.c	/^static int do_status(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_status_detail	regulator.c	/^static void do_status_detail(struct udevice *dev,$/;"	f	language:C	file:	signature:(struct udevice *dev, struct dm_regulator_uclass_platdata *uc_pdata)
+do_status_line	regulator.c	/^static void do_status_line(struct udevice *dev)$/;"	f	language:C	file:	signature:(struct udevice *dev)
+do_strings	strings.c	/^int do_strings(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_sysboot	pxe.c	/^static int do_sysboot(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_terminal	terminal.c	/^int do_terminal(cmd_tbl_t * cmd, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t * cmd, int flag, int argc, char * const argv[])
+do_test	test.c	/^static int do_test(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tftpb	net.c	/^int do_tftpb(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tftpput	net.c	/^static int do_tftpput(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tftpsrv	net.c	/^static int do_tftpsrv(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_thor_down	thordown.c	/^int do_thor_down(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_time	time.c	/^static int do_time(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_timer	misc.c	/^static int do_timer(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm	tpm.c	/^static int do_tpm(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_extend	tpm.c	/^static int do_tpm_extend(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_flush	tpm.c	/^static int do_tpm_flush(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_get_capability	tpm.c	/^static int do_tpm_get_capability(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_get_pub_key_oiap	tpm.c	/^static int do_tpm_get_pub_key_oiap(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_info	tpm.c	/^static int do_tpm_info(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_tpm_list	tpm.c	/^static int do_tpm_list(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_load_key2_oiap	tpm.c	/^static int do_tpm_load_key2_oiap(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_load_key_by_sha1	tpm.c	/^static int do_tpm_load_key_by_sha1(cmd_tbl_t *cmdtp, int flag, int argc, char *$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_nv_define	tpm.c	/^static int do_tpm_nv_define(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_nv_define_space	tpm.c	/^static int do_tpm_nv_define_space(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_nv_read	tpm.c	/^static int do_tpm_nv_read(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_nv_read_value	tpm.c	/^static int do_tpm_nv_read_value(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_nv_write	tpm.c	/^static int do_tpm_nv_write(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_nv_write_value	tpm.c	/^static int do_tpm_nv_write_value(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_oiap	tpm.c	/^static int do_tpm_oiap(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_pcr_read	tpm.c	/^static int do_tpm_pcr_read(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_physical_set_deactivated	tpm.c	/^static int do_tpm_physical_set_deactivated(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_raw_transfer	tpm.c	/^static int do_tpm_raw_transfer(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_read_pubek	tpm.c	/^static int do_tpm_read_pubek(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_startup	tpm.c	/^static int do_tpm_startup(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpm_tsc_physical_presence	tpm.c	/^static int do_tpm_tsc_physical_presence(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tpmtest	tpm_test.c	/^static int do_tpmtest(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_trace	trace.c	/^int do_trace(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_true	test.c	/^static int do_true(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_tsi148	tsi148.c	/^int do_tsi148(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ubi	ubi.c	/^static int do_ubi(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ubifs_load	ubifs.c	/^static int do_ubifs_load(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ubifs_ls	ubifs.c	/^static int do_ubifs_ls(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ubifs_mount	ubifs.c	/^static int do_ubifs_mount(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ubifs_umount	ubifs.c	/^static int do_ubifs_umount(cmd_tbl_t *cmdtp, int flag, int argc,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_universe	universe.c	/^int do_universe(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_unzip	unzip.c	/^static int do_unzip(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_usb	usb.c	/^static int do_usb(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_usb_mass_storage	usb_mass_storage.c	/^static int do_usb_mass_storage(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_usb_start	usb.c	/^static void do_usb_start(void)$/;"	f	language:C	file:	signature:(void)
+do_usb_stop_keyboard	usb.c	/^static int do_usb_stop_keyboard(int force)$/;"	f	language:C	file:	signature:(int force)
+do_usbboot	usb.c	/^static int do_usbboot(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_value	regulator.c	/^static int do_value(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_version	version.c	/^static int do_version(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_write	pmic.c	/^static int do_write(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_ydevconfig	yaffs2.c	/^int do_ydevconfig(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ydevls	yaffs2.c	/^int do_ydevls(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_yls	yaffs2.c	/^int do_yls(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ymkdir	yaffs2.c	/^int do_ymkdir(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ymount	yaffs2.c	/^int do_ymount(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ymv	yaffs2.c	/^int do_ymv(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_yrd	yaffs2.c	/^int do_yrd(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_yrdm	yaffs2.c	/^int do_yrdm(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_yrm	yaffs2.c	/^int do_yrm(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_yrmdir	yaffs2.c	/^int do_yrmdir(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ytrace	yaffs2.c	/^int do_ytrace(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_yumount	yaffs2.c	/^int do_yumount(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ywr	yaffs2.c	/^int do_ywr(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_ywrm	yaffs2.c	/^int do_ywrm(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])$/;"	f	language:C	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char *const argv[])
+do_zfs_load	zfs.c	/^static int do_zfs_load(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_zfs_ls	zfs.c	/^static int do_zfs_ls(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+do_zip	zip.c	/^static int do_zip(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+dout	spi.c	/^static uchar 		dout[MAX_SPI_BYTES];$/;"	v	language:C	file:
+dp_last_addr	fpgad.c	/^static uint	dp_last_addr;$/;"	v	language:C	file:
+dp_last_addr	mem.c	/^static ulong	dp_last_addr, dp_last_size;$/;"	v	language:C	file:
+dp_last_fpga	fpgad.c	/^static uint	dp_last_fpga;$/;"	v	language:C	file:
+dp_last_length	fpgad.c	/^static uint	dp_last_length = 0x40;$/;"	v	language:C	file:
+dp_last_length	mem.c	/^static ulong	dp_last_length = 0x40;$/;"	v	language:C	file:
+dp_last_size	mem.c	/^static ulong	dp_last_addr, dp_last_size;$/;"	v	language:C	file:
+drive	fdc.c	/^	uchar		drive;		\/* drive no *\/$/;"	m	language:C	struct:__anon4	file:
+dump_reg	mii.c	/^static void dump_reg($/;"	f	language:C	file:	signature:( ushort regval, const MII_reg_desc_t *prd, const MII_field_desc_and_len_t *pdl)
+ec_current_image_name	cros_ec.c	/^static const char * const ec_current_image_name[] = {"unknown", "RO", "RW"};$/;"	v	language:C	file:
+eeprom_action	eeprom.c	/^enum eeprom_action {$/;"	g	language:C	file:
+eeprom_addr	eeprom.c	/^static int eeprom_addr(unsigned dev_addr, unsigned offset, uchar *addr)$/;"	f	language:C	file:	signature:(unsigned dev_addr, unsigned offset, uchar *addr)
+eeprom_buf	eeprom.c	/^static unsigned char eeprom_buf[CONFIG_SYS_EEPROM_SIZE];$/;"	v	language:C	file:
+eeprom_execute_command	eeprom.c	/^static int eeprom_execute_command(enum eeprom_action action, int i2c_bus,$/;"	f	language:C	file:	signature:(enum eeprom_action action, int i2c_bus, ulong i2c_addr, int layout_ver, char *key, char *value, ulong addr, ulong off, ulong cnt)
+eeprom_init	eeprom.c	/^void eeprom_init(int bus)$/;"	f	language:C	signature:(int bus)
+eeprom_len	eeprom.c	/^static int eeprom_len(unsigned offset, unsigned end)$/;"	f	language:C	file:	signature:(unsigned offset, unsigned end)
+eeprom_parse_layout_version	eeprom.c	/^__weak int eeprom_parse_layout_version(char *str)$/;"	f	language:C	signature:(char *str)
+eeprom_read	eeprom.c	/^int eeprom_read(unsigned dev_addr, unsigned offset, uchar *buffer, unsigned cnt)$/;"	f	language:C	signature:(unsigned dev_addr, unsigned offset, uchar *buffer, unsigned cnt)
+eeprom_rw	eeprom.c	/^static int eeprom_rw(unsigned dev_addr, unsigned offset, uchar *buffer,$/;"	f	language:C	file:	signature:(unsigned dev_addr, unsigned offset, uchar *buffer, unsigned cnt, bool read)
+eeprom_rw_block	eeprom.c	/^static int eeprom_rw_block(unsigned offset, uchar *addr, unsigned alen,$/;"	f	language:C	file:	signature:(unsigned offset, uchar *addr, unsigned alen, uchar *buffer, unsigned len, bool read)
+eeprom_write	eeprom.c	/^int eeprom_write(unsigned dev_addr, unsigned offset,$/;"	f	language:C	signature:(unsigned dev_addr, unsigned offset, uchar *buffer, unsigned cnt)
+eeprom_write_enable	eeprom.c	/^__weak int eeprom_write_enable(unsigned dev_addr, int state)$/;"	f	language:C	signature:(unsigned dev_addr, int state)
+efi_build_mem_table	efi.c	/^void *efi_build_mem_table(struct efi_entry_memmap *map, int size, bool skip_bs)$/;"	f	language:C	signature:(struct efi_entry_memmap *map, int size, bool skip_bs)
+efi_commands	efi.c	/^static cmd_tbl_t efi_commands[] = {$/;"	v	language:C	file:
+efi_do_enter	bootefi.c	/^static efi_status_t efi_do_enter($/;"	f	language:C	file:	signature:( efi_handle_t image_handle, struct efi_system_table *st, EFIAPI efi_status_t (*entry)( efi_handle_t image_handle, struct efi_system_table *st))
+efi_init_obj_list	bootefi.c	/^static void efi_init_obj_list(void)$/;"	f	language:C	file:	signature:(void)
+efi_obj_list_initalized	bootefi.c	/^static uint8_t efi_obj_list_initalized;$/;"	v	language:C	file:
+efi_print_mem_table	efi.c	/^static void efi_print_mem_table(struct efi_entry_memmap *map,$/;"	f	language:C	file:	signature:(struct efi_entry_memmap *map, struct efi_mem_desc *desc, bool skip_bs)
+efi_run_in_el2	bootefi.c	/^static efi_status_t efi_run_in_el2(EFIAPI efi_status_t (*entry)($/;"	f	language:C	file:	signature:(EFIAPI efi_status_t (entry) efi_handle_t image_handle, struct efi_system_table *st), efi_handle_t image_handle, struct efi_system_table *st)
+efi_set_bootdev	bootefi.c	/^void efi_set_bootdev(const char *dev, const char *devnr, const char *path)$/;"	f	language:C	signature:(const char *dev, const char *devnr, const char *path)
+enc_algorithm_id	mvebu/bubt.c	/^	u32	enc_algorithm_id;$/;"	m	language:C	struct:mvebu_image_info	file:
+encrypt_size	mvebu/bubt.c	/^	u32	encrypt_size;$/;"	m	language:C	struct:mvebu_image_info	file:
+encrypt_start_offset	mvebu/bubt.c	/^	u32	encrypt_start_offset;$/;"	m	language:C	struct:mvebu_image_info	file:
+entrypoint	armflash.c	/^	u32 entrypoint;$/;"	m	language:C	struct:afs_image	file:
+env_get	nvedit.c	/^char *env_get(const char *name)$/;"	f	language:C	signature:(const char *name)
+env_get_f	nvedit.c	/^int env_get_f(const char *name, char *buf, unsigned len)$/;"	f	language:C	signature:(const char *name, char *buf, unsigned len)
+env_get_hex	nvedit.c	/^ulong env_get_hex(const char *varname, ulong default_val)$/;"	f	language:C	signature:(const char *varname, ulong default_val)
+env_get_mtdparts	mtdparts.c	/^static const char *env_get_mtdparts(char *buf)$/;"	f	language:C	file:	signature:(char *buf)
+env_get_ulong	nvedit.c	/^ulong env_get_ulong(const char *name, int base, ulong default_val)$/;"	f	language:C	signature:(const char *name, int base, ulong default_val)
+env_help_text	nvedit.c	/^static char env_help_text[] =$/;"	v	language:C	file:
+env_id	nvedit.c	/^static int env_id = 1;$/;"	v	language:C	file:
+env_print	nvedit.c	/^static int env_print(char *name, int flag)$/;"	f	language:C	file:	signature:(char *name, int flag)
+env_reloc	nvedit.c	/^void env_reloc(void)$/;"	f	language:C	signature:(void)
+env_set	nvedit.c	/^int env_set(const char *varname, const char *varvalue)$/;"	f	language:C	signature:(const char *varname, const char *varvalue)
+env_set_hex	nvedit.c	/^int env_set_hex(const char *varname, ulong value)$/;"	f	language:C	signature:(const char *varname, ulong value)
+env_set_ulong	nvedit.c	/^int env_set_ulong(const char *varname, ulong value)$/;"	f	language:C	signature:(const char *varname, ulong value)
+envmatch	nvedit.c	/^int envmatch(uchar *s1, int i2)$/;"	f	language:C	signature:(uchar *s1, int i2)
+eol_or_eof	pxe.c	/^static void eol_or_eof(char **c)$/;"	f	language:C	file:	signature:(char **c)
+ethsw_cmd_def	ethsw.c	/^} ethsw_cmd_def[] = {$/;"	v	language:C	typeref:struct:keywords_to_function	file:
+ethsw_define_functions	ethsw.c	/^int ethsw_define_functions(const struct ethsw_command_func *cmd_func)$/;"	f	language:C	signature:(const struct ethsw_command_func *cmd_func)
+ethsw_egr_tag_help_key_func	ethsw.c	/^static int ethsw_egr_tag_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_fdb_help_key_func	ethsw.c	/^static int ethsw_fdb_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_ingr_fltr_help_key_func	ethsw.c	/^static int ethsw_ingr_fltr_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_learn_help_key_func	ethsw.c	/^static int ethsw_learn_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_name	ethsw.c	/^static const char *ethsw_name;$/;"	v	language:C	file:
+ethsw_port_aggr_help_key_func	ethsw.c	/^static int ethsw_port_aggr_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_port_stats_help_key_func	ethsw.c	/^static int ethsw_port_stats_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_port_untag_help_key_func	ethsw.c	/^static int ethsw_port_untag_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_pvid_help_key_func	ethsw.c	/^static int ethsw_pvid_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_vlan_help_key_func	ethsw.c	/^static int ethsw_vlan_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+ethsw_vlan_learn_help_key_func	ethsw.c	/^static int ethsw_vlan_learn_help_key_func(struct ethsw_command_def *parsed_cmd)$/;"	f	language:C	file:	signature:(struct ethsw_command_def *parsed_cmd)
+evalexp	itest.c	/^static long evalexp(char *s, int w)$/;"	f	language:C	file:	signature:(char *s, int w)
+evalstr	itest.c	/^static char * evalstr(char *s)$/;"	f	language:C	file:	signature:(char *s)
+exec_addr	mvebu/bubt.c	/^	u32	exec_addr;		\/* 28-31 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+exists	armflash.c	/^static int exists(const char * const name)$/;"	f	language:C	file:	signature:(const char * const name)
+ext_count	mvebu/bubt.c	/^	u8	ext_count;		\/*  34   *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+extract_env	gpt.c	/^static int extract_env(const char *str, char **env)$/;"	f	language:C	file:	signature:(const char *str, char **env)
+extract_phy_range	mdio.c	/^static int extract_phy_range(char *const argv[], int argc, struct mii_dev **bus,$/;"	f	language:C	file:	signature:(char *const argv[], int argc, struct mii_dev **bus, struct phy_device **phydev, int *addrlo, int *addrhi)
+extract_range	mdio.c	/^static int extract_range(char *input, int *plo, int *phi)$/;"	f	language:C	file:	signature:(char *input, int *plo, int *phi)
+extract_range	mii.c	/^static void extract_range($/;"	f	language:C	file:	signature:( char * input, unsigned char * plo, unsigned char * phi)
+extract_reg_range	mdio.c	/^static int extract_reg_range(char *input, int *devadlo, int *devadhi,$/;"	f	language:C	file:	signature:(char *input, int *devadlo, int *devadhi, int *reglo, int *reghi)
+extract_val	gpt.c	/^static char *extract_val(const char *str, const char *key)$/;"	f	language:C	file:	signature:(const char *str, const char *key)
+failure	pmic.c	/^static int failure(int ret)$/;"	f	language:C	file:	signature:(int ret)
+failure	regulator.c	/^static int failure(int ret)$/;"	f	language:C	file:	signature:(int ret)
+false	test.c	186;"	d	language:C	file:
+fdc_check_drive	fdc.c	/^int fdc_check_drive(FDC_COMMAND_STRUCT *pCMD, FD_GEO_STRUCT *pFG)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD, FD_GEO_STRUCT *pFG)
+fdc_issue_cmd	fdc.c	/^int fdc_issue_cmd(FDC_COMMAND_STRUCT *pCMD,FD_GEO_STRUCT *pFG)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD,FD_GEO_STRUCT *pFG)
+fdc_need_more_output	fdc.c	/^int fdc_need_more_output(void)$/;"	f	language:C	signature:(void)
+fdc_read_data	fdc.c	/^int fdc_read_data(unsigned char *buffer, unsigned long blocks,FDC_COMMAND_STRUCT *pCMD, FD_GEO_STRUCT *pFG)$/;"	f	language:C	signature:(unsigned char *buffer, unsigned long blocks,FDC_COMMAND_STRUCT *pCMD, FD_GEO_STRUCT *pFG)
+fdc_recalibrate	fdc.c	/^int fdc_recalibrate(FDC_COMMAND_STRUCT *pCMD,FD_GEO_STRUCT *pFG)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD,FD_GEO_STRUCT *pFG)
+fdc_seek	fdc.c	/^int fdc_seek(FDC_COMMAND_STRUCT *pCMD,FD_GEO_STRUCT *pFG)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD,FD_GEO_STRUCT *pFG)
+fdc_setup	fdc.c	/^int fdc_setup(int drive, FDC_COMMAND_STRUCT *pCMD, FD_GEO_STRUCT *pFG)$/;"	f	language:C	signature:(int drive, FDC_COMMAND_STRUCT *pCMD, FD_GEO_STRUCT *pFG)
+fdc_terminate	fdc.c	/^int fdc_terminate(FDC_COMMAND_STRUCT *pCMD)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD)
+fdt	pxe.c	/^	char *fdt;$/;"	m	language:C	struct:pxe_label	file:
+fdt_help_text	fdt.c	/^static char fdt_help_text[] =$/;"	v	language:C	file:
+fdt_parse_prop	fdt.c	/^static int fdt_parse_prop(char * const *newval, int count, char *data, int *len)$/;"	f	language:C	file:	signature:(char * const *newval, int count, char *data, int *len)
+fdt_print	fdt.c	/^static int fdt_print(const char *pathp, char *prop, int depth)$/;"	f	language:C	file:	signature:(const char *pathp, char *prop, int depth)
+fdt_valid	fdt.c	/^static int fdt_valid(struct fdt_header **blobp)$/;"	f	language:C	file:	signature:(struct fdt_header **blobp)
+fdt_value_env_set	fdt.c	/^static int fdt_value_env_set(const void *nodep, int len, const char *var)$/;"	f	language:C	file:	signature:(const void *nodep, int len, const char *var)
+fdtdir	pxe.c	/^	char *fdtdir;$/;"	m	language:C	struct:pxe_label	file:
+filechk_data_gz	Makefile	/^filechk_data_gz = (echo "static const char data_gz[] ="; cat $< | scripts\/bin2c; echo ";")$/;"	m	language:Make
+filechk_data_size	Makefile	/^filechk_data_size = \\$/;"	m	language:Make
+find_bubt_dev	mvebu/bubt.c	/^struct bubt_dev *find_bubt_dev(char *dev_name)$/;"	f	language:C	signature:(char *dev_name)
+find_char_or_comment	ini.c	/^static char *find_char_or_comment(const char *s, char c)$/;"	f	language:C	file:	signature:(const char *s, char c)
+find_dev_and_part	mtdparts.c	/^int find_dev_and_part(const char *id, struct mtd_device **dev,$/;"	f	language:C	signature:(const char *id, struct mtd_device **dev, u8 *part_num, struct part_info **part)
+first	bootmenu.c	/^	struct bootmenu_entry *first;	\/* first menu entry *\/$/;"	m	language:C	struct:bootmenu_data	typeref:struct:bootmenu_data::bootmenu_entry	file:
+flag	pci.c	/^	uint flag;$/;"	m	language:C	struct:pci_flag_info	file:
+flags	fdc.c	/^	int		flags;		\/* connected drives ect *\/$/;"	m	language:C	struct:__anon4	file:
+flash	sf.c	/^static struct spi_flash *flash;$/;"	v	language:C	typeref:struct:spi_flash	file:
+flash_entry_addr	mvebu/bubt.c	/^	u32	flash_entry_addr;$/;"	m	language:C	struct:mvebu_image_info	file:
+flash_fill_sect_ranges	flash.c	/^flash_fill_sect_ranges (ulong addr_first, ulong addr_last,$/;"	f	language:C	file:	signature:(ulong addr_first, ulong addr_last, int *s_first, int *s_last, int *s_count )
+flash_mem_end	armflash.c	/^	ulong flash_mem_end;$/;"	m	language:C	struct:afs_image	file:
+flash_mem_start	armflash.c	/^	ulong flash_mem_start;$/;"	m	language:C	struct:afs_image	file:
+flash_sect_erase	flash.c	/^int flash_sect_erase (ulong addr_first, ulong addr_last)$/;"	f	language:C	signature:(ulong addr_first, ulong addr_last)
+flash_sect_protect	flash.c	/^int flash_sect_protect (int p, ulong addr_first, ulong addr_last)$/;"	f	language:C	signature:(int p, ulong addr_first, ulong addr_last)
+flash_sect_roundb	flash.c	/^int flash_sect_roundb (ulong *addr)$/;"	f	language:C	signature:(ulong *addr)
+flinfo	armflash.c	/^	flash_info_t *flinfo;$/;"	m	language:C	struct:afs_image	file:
+floppy_type	fdc.c	/^const static FD_GEO_STRUCT floppy_type[2] = {$/;"	v	language:C	file:
+flush_dcache_all	cache.c	/^void __weak flush_dcache_all(void)$/;"	f	language:C	signature:(void)
+fmt_gap	fdc.c	/^	unsigned char	fmt_gap;\/* gap2 size *\/$/;"	m	language:C	struct:__anon5	file:
+format_mac_pxe	pxe.c	/^static int format_mac_pxe(char *outbuf, size_t outbuf_len)$/;"	f	language:C	file:	signature:(char *outbuf, size_t outbuf_len)
+found_key	gpt.c	/^static bool found_key(const char *str, const char *key)$/;"	f	language:C	file:	signature:(const char *str, const char *key)
+fpga_get_op	fpga.c	/^static int fpga_get_op(char *opstr)$/;"	f	language:C	file:	signature:(char *opstr)
+from_env	pxe.c	/^static char *from_env(const char *envvar)$/;"	f	language:C	file:	signature:(const char *envvar)
+fs_argv	pxe.c	/^static char *fs_argv[5];$/;"	v	language:C	file:
+fsp_commands	x86/fsp.c	/^static cmd_tbl_t fsp_commands[] = {$/;"	v	language:C	file:
+fwcfg_commands	qfw.c	/^static cmd_tbl_t fwcfg_commands[] = {$/;"	v	language:C	file:
+gap	fdc.c	/^	unsigned char	gap;	\/* gap1 size *\/$/;"	m	language:C	struct:__anon5	file:
+generate_mtdparts	mtdparts.c	/^static int generate_mtdparts(char *buf, u32 buflen)$/;"	f	language:C	file:	signature:(char *buf, u32 buflen)
+generate_mtdparts_save	mtdparts.c	/^static int generate_mtdparts_save(char *buf, u32 buflen)$/;"	f	language:C	file:	signature:(char *buf, u32 buflen)
+get_alen	i2c.c	/^static uint get_alen(char *arg, int default_len)$/;"	f	language:C	file:	signature:(char *arg, int default_len)
+get_arg	setexpr.c	/^static ulong get_arg(char *s, int w)$/;"	f	language:C	file:	signature:(char *s, int w)
+get_args	trace.c	/^static int get_args(int argc, char * const argv[], char **buff,$/;"	f	language:C	file:	signature:(int argc, char * const argv[], char **buff, size_t *buff_ptr, size_t *buff_size)
+get_base_size	bootstage.c	/^static int get_base_size(int argc, char * const argv[], ulong *basep,$/;"	f	language:C	file:	signature:(int argc, char * const argv[], ulong *basep, ulong *sizep)
+get_bootfile_path	pxe.c	/^static int get_bootfile_path(const char *file_path, char *bootfile_path,$/;"	f	language:C	file:	signature:(const char *file_path, char *bootfile_path, size_t bootfile_path_size)
+get_env_id	nvedit.c	/^int get_env_id(void)$/;"	f	language:C	signature:(void)
+get_gpt_info	gpt.c	/^static int get_gpt_info(struct blk_desc *dev_desc)$/;"	f	language:C	file:	signature:(struct blk_desc *dev_desc)
+get_keyword	pxe.c	/^static void get_keyword(struct token *t)$/;"	f	language:C	file:	signature:(struct token *t)
+get_led_cmd	led.c	/^enum led_state_t get_led_cmd(char *var)$/;"	f	language:C	signature:(char *var)
+get_led_cmd	legacy_led.c	/^enum led_cmd get_led_cmd(char *var)$/;"	f	language:C	signature:(char *var)
+get_load_addr	mvebu/bubt.c	/^static ulong get_load_addr(void)$/;"	f	language:C	file:	signature:(void)
+get_mode_name	regulator.c	/^static const char *get_mode_name(struct dm_regulator_mode *mode,$/;"	f	language:C	file:	signature:(struct dm_regulator_mode *mode, int mode_count, int mode_id)
+get_mtd_info	mtdparts.c	/^static int get_mtd_info(u8 type, u8 num, struct mtd_info **mtd)$/;"	f	language:C	file:	signature:(u8 type, u8 num, struct mtd_info **mtd)
+get_part_sector_size	jffs2.c	/^static inline u32 get_part_sector_size(struct mtdids *id, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtdids *id, struct part_info *part)
+get_part_sector_size_nand	jffs2.c	/^static inline u32 get_part_sector_size_nand(struct mtdids *id)$/;"	f	language:C	file:	signature:(struct mtdids *id)
+get_part_sector_size_nor	jffs2.c	/^static inline u32 get_part_sector_size_nor(struct mtdids *id, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtdids *id, struct part_info *part)
+get_part_sector_size_onenand	jffs2.c	/^static inline u32 get_part_sector_size_onenand(void)$/;"	f	language:C	file:	signature:(void)
+get_pci_dev	pci.c	/^static pci_dev_t get_pci_dev(char *name)$/;"	f	language:C	file:	signature:(char *name)
+get_pxe_file	pxe.c	/^static int get_pxe_file(cmd_tbl_t *cmdtp, const char *file_path,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, unsigned long file_addr)
+get_pxelinux_path	pxe.c	/^static int get_pxelinux_path(cmd_tbl_t *cmdtp, const char *file,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file, unsigned long pxefile_addr_r)
+get_relfile	pxe.c	/^static int get_relfile(cmd_tbl_t *cmdtp, const char *file_path,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, unsigned long file_addr)
+get_relfile_envaddr	pxe.c	/^static int get_relfile_envaddr(cmd_tbl_t *cmdtp, const char *file_path, const char *envaddr_name)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, const char *file_path, const char *envaddr_name)
+get_string	pxe.c	/^static char *get_string(char **p, struct token *t, char delim, int lower)$/;"	f	language:C	file:	signature:(char **p, struct token *t, char delim, int lower)
+get_token	pxe.c	/^static void get_token(char **p, struct token *t, enum lex_state state)$/;"	f	language:C	file:	signature:(char **p, struct token *t, enum lex_state state)
+get_tpm	tpm.c	/^static int get_tpm(struct udevice **devp)$/;"	f	language:C	file:	signature:(struct udevice **devp)
+getcxmodem	load.c	/^static int getcxmodem(void) {$/;"	f	language:C	file:	signature:(void)
+gpio_cmd	gpio.c	/^enum gpio_cmd {$/;"	g	language:C	file:
+gpio_get_description	gpio.c	/^static void gpio_get_description(struct udevice *dev, const char *bank_name,$/;"	f	language:C	file:	signature:(struct udevice *dev, const char *bank_name, int offset, int *flagsp)
+gpt_default	gpt.c	/^static int gpt_default(struct blk_desc *blk_dev_desc, const char *str_part)$/;"	f	language:C	file:	signature:(struct blk_desc *blk_dev_desc, const char *str_part)
+gpt_verify	gpt.c	/^static int gpt_verify(struct blk_desc *blk_dev_desc, const char *str_part)$/;"	f	language:C	file:	signature:(struct blk_desc *blk_dev_desc, const char *str_part)
+gunzip_bmp	bmp.c	/^struct bmp_image *gunzip_bmp(unsigned long addr, unsigned long *lenp,$/;"	f	language:C	signature:(unsigned long addr, unsigned long *lenp, void **alloc_addr)
+h_cmp_entry	efi.c	/^static int h_cmp_entry(const void *v1, const void *v2)$/;"	f	language:C	file:	signature:(const void *v1, const void *v2)
+handle_include	pxe.c	/^static int handle_include(cmd_tbl_t *cmdtp, char **c, unsigned long base,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, char **c, unsigned long base, struct pxe_menu *cfg, int nest_level)
+handle_pxe_menu	pxe.c	/^static void handle_pxe_menu(cmd_tbl_t *cmdtp, struct pxe_menu *cfg)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, struct pxe_menu *cfg)
+handle_send_packet	load.c	/^static void handle_send_packet(int n)$/;"	f	language:C	file:	signature:(int n)
+hash	mvebu/bubt.c	/^	u32	hash[HASH_SUM_LEN];	\/* Reserve 512 bits for the hash *\/$/;"	m	language:C	struct:mvebu_image_info	file:
+hash_algorithm_id	mvebu/bubt.c	/^	u32	hash_algorithm_id;$/;"	m	language:C	struct:mvebu_image_info	file:
+head	fdc.c	/^	unsigned int head;	\/* nr of heads *\/$/;"	m	language:C	struct:__anon5	file:
+hi	mii.c	/^	ushort hi;$/;"	m	language:C	struct:_MII_field_desc_t	file:
+his_eol	load.c	/^static char his_eol;        \/* character he needs at end of packet *\/$/;"	v	language:C	file:
+his_pad_char	load.c	/^static char his_pad_char;   \/* pad chars he needs *\/$/;"	v	language:C	file:
+his_pad_count	load.c	/^static int  his_pad_count;  \/* number of pad chars he needs *\/$/;"	v	language:C	file:
+his_quote	load.c	/^static char his_quote;      \/* quote chars he'll use *\/$/;"	v	language:C	file:
+hlt	fdc.c	/^	unsigned char hlt;	\/* head load time *\/$/;"	m	language:C	struct:__anon5	file:
+hob_type	x86/fsp.c	/^static char *hob_type[] = {$/;"	v	language:C	file:
+host_curr_device	host.c	/^static int host_curr_device = -1;$/;"	v	language:C	file:
+i2c_cur_bus	i2c.c	/^static struct udevice *i2c_cur_bus;$/;"	v	language:C	typeref:struct:udevice	file:
+i2c_dp_last_addr	i2c.c	/^static uint	i2c_dp_last_addr;$/;"	v	language:C	file:
+i2c_dp_last_alen	i2c.c	/^static uint	i2c_dp_last_alen;$/;"	v	language:C	file:
+i2c_dp_last_chip	i2c.c	/^static uint	i2c_dp_last_chip;$/;"	v	language:C	file:
+i2c_dp_last_length	i2c.c	/^static uint	i2c_dp_last_length = 0x10;$/;"	v	language:C	file:
+i2c_err_op	i2c.c	/^enum i2c_err_op {$/;"	g	language:C	file:
+i2c_get_bus_speed	i2c.c	/^unsigned int i2c_get_bus_speed(void)$/;"	f	language:C	signature:(void)
+i2c_get_cur_bus	i2c.c	/^static int i2c_get_cur_bus(struct udevice **busp)$/;"	f	language:C	file:	signature:(struct udevice **busp)
+i2c_get_cur_bus_chip	i2c.c	/^static int i2c_get_cur_bus_chip(uint chip_addr, struct udevice **devp)$/;"	f	language:C	file:	signature:(uint chip_addr, struct udevice **devp)
+i2c_help_text	i2c.c	/^static char i2c_help_text[] =$/;"	v	language:C	file:
+i2c_init_board	i2c.c	/^void i2c_init_board(void)$/;"	f	language:C	signature:(void)
+i2c_mm_last_addr	i2c.c	/^static uint	i2c_mm_last_addr;$/;"	v	language:C	file:
+i2c_mm_last_alen	i2c.c	/^static uint	i2c_mm_last_alen;$/;"	v	language:C	file:
+i2c_mm_last_chip	i2c.c	/^static uint	i2c_mm_last_chip;$/;"	v	language:C	file:
+i2c_no_probes	i2c.c	/^static uchar i2c_no_probes[] = CONFIG_SYS_I2C_NOPROBES;$/;"	v	language:C	file:
+i2c_no_probes	i2c.c	/^} i2c_no_probes[] = CONFIG_SYS_I2C_NOPROBES;$/;"	v	language:C	typeref:struct:__anon6	file:
+i2c_reloc	i2c.c	/^static __maybe_unused void i2c_reloc(void)$/;"	f	language:C	file:	signature:(void)
+i2c_report_err	i2c.c	/^static int i2c_report_err(int ret, enum i2c_err_op op)$/;"	f	language:C	file:	signature:(int ret, enum i2c_err_op op)
+i2c_set_bus_speed	i2c.c	/^int i2c_set_bus_speed(unsigned int speed)$/;"	f	language:C	signature:(unsigned int speed)
+id_find	mtdparts.c	/^static struct mtdids* id_find(u8 type, u8 num)$/;"	f	language:C	file:	signature:(u8 type, u8 num)
+id_find_by_mtd_id	mtdparts.c	/^static struct mtdids* id_find_by_mtd_id(const char *mtd_id, unsigned int mtd_id_len)$/;"	f	language:C	file:	signature:(const char *mtd_id, unsigned int mtd_id_len)
+ide_devices_found	pcmcia.c	/^int		ide_devices_found;$/;"	v	language:C
+identifier	mvebu/bubt.c	/^	u32	identifier;$/;"	m	language:C	struct:common_tim_data	file:
+identify	pcmcia.c	/^static int identify  (volatile uchar *p)$/;"	f	language:C	file:	signature:(volatile uchar *p)
+image_id	mvebu/bubt.c	/^	u32	image_id;$/;"	m	language:C	struct:mvebu_image_info	file:
+image_info	bootm.c	/^static int image_info(ulong addr)$/;"	f	language:C	file:	signature:(ulong addr)
+image_size	mvebu/bubt.c	/^	u32	image_size;$/;"	m	language:C	struct:mvebu_image_info	file:
+image_size_to_hash	mvebu/bubt.c	/^	u32	image_size_to_hash;$/;"	m	language:C	struct:mvebu_image_info	file:
+imgextract_help_text	ximg.c	/^static char imgextract_help_text[] =$/;"	v	language:C	file:
+indent	pcmcia.c	104;"	d	language:C	file:
+index_partitions	mtdparts.c	/^static void index_partitions(void)$/;"	f	language:C	file:	signature:(void)
+ini_handler	ini.c	/^static int ini_handler(void *user, char *section, char *name, char *value)$/;"	f	language:C	file:	signature:(void *user, char *section, char *name, char *value)
+ini_parse	ini.c	/^static int ini_parse(char *filestart, size_t filelen,$/;"	f	language:C	file:	signature:(char *filestart, size_t filelen, int (*handler)(void *, char *, char *, char *), void *user)
+init_mmc_device	mmc.c	/^static struct mmc *init_mmc_device(int dev, bool force_init)$/;"	f	language:C	file:	signature:(int dev, bool force_init)
+initialise_spaces	tpm_test.c	/^static void initialise_spaces(void)$/;"	f	language:C	file:	signature:(void)
+initrd	pxe.c	/^	char *initrd;$/;"	m	language:C	struct:pxe_label	file:
+invalidate_icache_all	cache.c	/^void __weak invalidate_icache_all(void)$/;"	f	language:C	signature:(void)
+io_arg_0	mvebu/bubt.c	/^	u32	io_arg_0;		\/* 36-39 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+io_arg_1	mvebu/bubt.c	/^	u32	io_arg_1;		\/* 40-43 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+io_arg_2	mvebu/bubt.c	/^	u32	io_arg_2;		\/* 43-47 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+io_arg_3	mvebu/bubt.c	/^	u32	io_arg_3;		\/* 48-51 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+ipappend	pxe.c	/^	int ipappend;$/;"	m	language:C	struct:pxe_label	file:
+is_addr_valid	ti/ddr3.c	/^static int is_addr_valid(u32 addr)$/;"	f	language:C	file:	signature:(u32 addr)
+is_boot_services	efi.c	/^static inline bool is_boot_services(int type)$/;"	f	language:C	file:	signature:(int type)
+is_ecc_enabled	ti/ddr3.c	/^static int is_ecc_enabled(void)$/;"	f	language:C	file:	signature:(void)
+is_mmc_active	mvebu/bubt.c	/^static int is_mmc_active(void)$/;"	f	language:C	file:	signature:(void)
+is_nand_active	mvebu/bubt.c	/^static int is_nand_active(void)$/;"	f	language:C	file:	signature:(void)
+is_printable_string	fdt.c	/^static int is_printable_string(const void *data, int len)$/;"	f	language:C	file:	signature:(const void *data, int len)
+is_pxe	pxe.c	/^static bool is_pxe;$/;"	v	language:C	file:
+is_spi_active	mvebu/bubt.c	/^static int is_spi_active(void)$/;"	f	language:C	file:	signature:(void)
+is_tftp_active	mvebu/bubt.c	/^static int is_tftp_active(void)$/;"	f	language:C	file:	signature:(void)
+is_usb_active	mvebu/bubt.c	/^static int is_usb_active(void)$/;"	f	language:C	file:	signature:(void)
+issue_date	mvebu/bubt.c	/^	u32	issue_date;$/;"	m	language:C	struct:common_tim_data	file:
+jffs2_part_info	jffs2.c	/^static struct part_info* jffs2_part_info(struct mtd_device *dev, unsigned int part_num)$/;"	f	language:C	file:	signature:(struct mtd_device *dev, unsigned int part_num)
+k_data_char	load.c	/^static void k_data_char(char new_char)$/;"	f	language:C	file:	signature:(char new_char)
+k_data_escape	load.c	/^static int k_data_escape, k_data_escape_saved;$/;"	v	language:C	file:
+k_data_escape_saved	load.c	/^static int k_data_escape, k_data_escape_saved;$/;"	v	language:C	file:
+k_data_init	load.c	/^static void k_data_init(void)$/;"	f	language:C	file:	signature:(void)
+k_data_restore	load.c	/^static void k_data_restore(void)$/;"	f	language:C	file:	signature:(void)
+k_data_save	load.c	/^static void k_data_save(void)$/;"	f	language:C	file:	signature:(void)
+k_recv	load.c	/^static int k_recv(void)$/;"	f	language:C	file:	signature:(void)
+kernel	pxe.c	/^	char *kernel;$/;"	m	language:C	struct:pxe_label	file:
+key	bootmenu.c	/^	char key[3];			\/* key identifier of number *\/$/;"	m	language:C	struct:bootmenu_entry	file:
+keyword	ethsw.c	/^} keyword[] = {$/;"	v	language:C	typeref:struct:keyword_def
+keyword_def	ethsw.c	/^struct keyword_def {$/;"	s	language:C	file:
+keyword_function	ethsw.c	/^	int (*keyword_function)(struct ethsw_command_def *parsed_cmd);$/;"	m	language:C	struct:keywords_to_function	file:
+keyword_match_aggr	ethsw.c	/^static int keyword_match_aggr(enum ethsw_keyword_id key_id, int argc,$/;"	f	language:C	file:	signature:(enum ethsw_keyword_id key_id, int argc, char *const argv[], int *argc_nr, struct ethsw_command_def *parsed_cmd)
+keyword_match_gen	ethsw.c	/^static int keyword_match_gen(enum ethsw_keyword_id key_id, int argc,$/;"	f	language:C	file:	signature:(enum ethsw_keyword_id key_id, int argc, char *const argv[], int *argc_nr, struct ethsw_command_def *parsed_cmd)
+keyword_match_mac_addr	ethsw.c	/^static int keyword_match_mac_addr(enum ethsw_keyword_id key_id, int argc,$/;"	f	language:C	file:	signature:(enum ethsw_keyword_id key_id, int argc, char *const argv[], int *argc_nr, struct ethsw_command_def *parsed_cmd)
+keyword_match_port	ethsw.c	/^static int keyword_match_port(enum ethsw_keyword_id key_id, int argc,$/;"	f	language:C	file:	signature:(enum ethsw_keyword_id key_id, int argc, char *const argv[], int *argc_nr, struct ethsw_command_def *parsed_cmd)
+keyword_match_pvid	ethsw.c	/^static int keyword_match_pvid(enum ethsw_keyword_id key_id, int argc,$/;"	f	language:C	file:	signature:(enum ethsw_keyword_id key_id, int argc, char *const argv[], int *argc_nr, struct ethsw_command_def *parsed_cmd)
+keyword_match_vlan	ethsw.c	/^static int keyword_match_vlan(enum ethsw_keyword_id key_id, int argc,$/;"	f	language:C	file:	signature:(enum ethsw_keyword_id key_id, int argc, char *const argv[], int *argc_nr, struct ethsw_command_def *parsed_cmd)
+keyword_name	ethsw.c	/^	const char *keyword_name;$/;"	m	language:C	struct:keyword_def	file:
+keywords	pxe.c	/^static const struct token keywords[] = {$/;"	v	language:C	typeref:struct:token	file:
+keywords_find	ethsw.c	/^static int keywords_find(int argc, char * const argv[],$/;"	f	language:C	file:	signature:(int argc, char * const argv[], struct ethsw_command_def *parsed_cmd)
+keywords_optional	ethsw.c	/^struct keywords_optional {$/;"	s	language:C	file:
+keywords_to_function	ethsw.c	/^static struct keywords_to_function {$/;"	s	language:C	file:
+known_cards	pcmcia.c	/^static uchar	*known_cards[] = {$/;"	v	language:C	file:
+ktrans	load.c	/^static char ktrans(char in)$/;"	f	language:C	file:	signature:(char in)
+label_boot	pxe.c	/^static int label_boot(cmd_tbl_t *cmdtp, struct pxe_label *label)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, struct pxe_label *label)
+label_create	pxe.c	/^static struct pxe_label *label_create(void)$/;"	f	language:C	file:	signature:(void)
+label_destroy	pxe.c	/^static void label_destroy(struct pxe_label *label)$/;"	f	language:C	file:	signature:(struct pxe_label *label)
+label_localboot	pxe.c	/^static int label_localboot(struct pxe_label *label)$/;"	f	language:C	file:	signature:(struct pxe_label *label)
+label_print	pxe.c	/^static void label_print(void *data)$/;"	f	language:C	file:	signature:(void *data)
+labels	pxe.c	/^	struct list_head labels;$/;"	m	language:C	struct:pxe_menu	typeref:struct:pxe_menu::list_head	file:
+last_addr	strings.c	/^static char *start_addr, *last_addr;$/;"	v	language:C	file:
+last_addr_hi	mdio.c	/^static uint last_addr_hi;$/;"	v	language:C	file:
+last_addr_hi	mii.c	/^static uint last_addr_hi;$/;"	v	language:C	file:
+last_addr_lo	mdio.c	/^static uint last_addr_lo;$/;"	v	language:C	file:
+last_addr_lo	mii.c	/^static uint last_addr_lo;$/;"	v	language:C	file:
+last_data	mdio.c	/^static uint last_data;$/;"	v	language:C	file:
+last_data	mii.c	/^static uint last_data;$/;"	v	language:C	file:
+last_devad_hi	mdio.c	/^static uint last_devad_hi;$/;"	v	language:C	file:
+last_devad_lo	mdio.c	/^static uint last_devad_lo;$/;"	v	language:C	file:
+last_ids	mtdparts.c	/^static char last_ids[MTDIDS_MAXLEN + 1];$/;"	v	language:C	file:
+last_mask	mii.c	/^static uint last_mask;$/;"	v	language:C	file:
+last_op	mdio.c	/^static char last_op[2];$/;"	v	language:C	file:
+last_op	mii.c	/^static char last_op[2];$/;"	v	language:C	file:
+last_partition	mtdparts.c	/^static char last_partition[PARTITION_MAXLEN + 1];$/;"	v	language:C	file:
+last_parts	mtdparts.c	/^static char last_parts[MTDPARTS_MAXLEN + 1];$/;"	v	language:C	file:
+last_reg_hi	mdio.c	/^static uint last_reg_hi;$/;"	v	language:C	file:
+last_reg_hi	mii.c	/^static uint last_reg_hi;$/;"	v	language:C	file:
+last_reg_lo	mdio.c	/^static uint last_reg_lo;$/;"	v	language:C	file:
+last_reg_lo	mii.c	/^static uint last_reg_lo;$/;"	v	language:C	file:
+led_cmd	legacy_led.c	/^enum led_cmd { LED_ON, LED_OFF, LED_TOGGLE, LED_BLINK };$/;"	g	language:C	file:
+led_commands	legacy_led.c	/^static const led_tbl_t led_commands[] = {$/;"	v	language:C	file:
+led_tbl_s	legacy_led.c	/^struct led_tbl_s {$/;"	s	language:C	file:
+led_tbl_t	legacy_led.c	/^typedef struct led_tbl_s led_tbl_t;$/;"	t	language:C	typeref:struct:led_tbl_s	file:
+len	mii.c	/^	ushort len;$/;"	m	language:C	struct:_MII_field_desc_and_len_t	file:
+lex_state	pxe.c	/^enum lex_state {$/;"	g	language:C	file:
+list	pxe.c	/^	struct list_head list;$/;"	m	language:C	struct:pxe_label	typeref:struct:pxe_label::list_head	file:
+list_leds	led.c	/^static int list_leds(void)$/;"	f	language:C	file:	signature:(void)
+list_partitions	mtdparts.c	/^static void list_partitions(void)$/;"	f	language:C	file:	signature:(void)
+lo	mii.c	/^	ushort lo;$/;"	m	language:C	struct:_MII_field_desc_t	file:
+load_addr	mvebu/bubt.c	/^	u32	load_addr;		\/* 24-27 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+load_addr	mvebu/bubt.c	/^	u32	load_addr;$/;"	m	language:C	struct:mvebu_image_info	file:
+load_address	armflash.c	/^	u32 load_address;$/;"	m	language:C	struct:afs_region	file:
+load_elf_image_phdr	elf.c	/^static unsigned long load_elf_image_phdr(unsigned long addr)$/;"	f	language:C	file:	signature:(unsigned long addr)
+load_elf_image_shdr	elf.c	/^static unsigned long load_elf_image_shdr(unsigned long addr)$/;"	f	language:C	file:	signature:(unsigned long addr)
+load_image	armflash.c	/^static int load_image(const char * const name, const ulong address)$/;"	f	language:C	file:	signature:(const char * const name, const ulong address)
+load_serial	load.c	/^static ulong load_serial(long offset)$/;"	f	language:C	file:	signature:(long offset)
+load_serial_bin	load.c	/^static ulong load_serial_bin(ulong offset)$/;"	f	language:C	file:	signature:(ulong offset)
+load_serial_ymodem	load.c	/^static ulong load_serial_ymodem(ulong offset, int mode)$/;"	f	language:C	file:	signature:(ulong offset, int mode)
+localboot	pxe.c	/^	int localboot;$/;"	m	language:C	struct:pxe_label	file:
+localboot_val	pxe.c	/^	int localboot_val;$/;"	m	language:C	struct:pxe_label	file:
+log_fmt_chars	log.c	/^static char log_fmt_chars[LOGF_COUNT] = "clFLfm";$/;"	v	language:C	file:
+log_help_text	log.c	/^static char log_help_text[] =$/;"	v	language:C	file:
+log_sub	log.c	/^static cmd_tbl_t log_sub[] = {$/;"	v	language:C	file:
+lskip	ini.c	/^static char *lskip(const char *s)$/;"	f	language:C	file:	signature:(const char *s)
+magic	mvebu/bubt.c	/^	u32	magic;			\/*  0-3  *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+mask	legacy_led.c	/^	led_id_t	mask;		\/* Mask used for calling __led_set() *\/$/;"	m	language:C	struct:led_tbl_s	file:
+mask	mii.c	/^	ushort mask;$/;"	m	language:C	struct:_MII_field_desc_t	file:
+match	ethsw.c	/^	int (*match)(enum ethsw_keyword_id key_id, int argc, char *const argv[],$/;"	m	language:C	struct:keyword_def	file:
+mdio_read_ranges	mdio.c	/^static int mdio_read_ranges(struct phy_device *phydev, struct mii_dev *bus,$/;"	f	language:C	file:	signature:(struct phy_device *phydev, struct mii_dev *bus, int addrlo, int addrhi, int devadlo, int devadhi, int reglo, int reghi, int extended)
+mdio_write_ranges	mdio.c	/^static int mdio_write_ranges(struct phy_device *phydev, struct mii_dev *bus,$/;"	f	language:C	file:	signature:(struct phy_device *phydev, struct mii_dev *bus, int addrlo, int addrhi, int devadlo, int devadhi, int reglo, int reghi, unsigned short data, int extended)
+mem_attr	efi.c	/^} mem_attr[] = {$/;"	v	language:C	typeref:struct:attr_info	file:
+mem_test_alt	mem.c	/^static ulong mem_test_alt(vu_long *buf, ulong start_addr, ulong end_addr,$/;"	f	language:C	file:	signature:(vu_long *buf, ulong start_addr, ulong end_addr, vu_long *dummy)
+mem_test_quick	mem.c	/^static ulong mem_test_quick(vu_long *buf, ulong start_addr, ulong end_addr,$/;"	f	language:C	file:	signature:(vu_long *buf, ulong start_addr, ulong end_addr, vu_long pattern, int iteration)
+memgets	ini.c	/^static char *memgets(char *str, int num, char **mem, size_t *memsize)$/;"	f	language:C	file:	signature:(char *str, int num, char **mem, size_t *memsize)
+memsize_format	mtdparts.c	/^static void memsize_format(char *buf, u64 size)$/;"	f	language:C	file:	signature:(char *buf, u64 size)
+memsize_parse	mtdparts.c	/^static u64 memsize_parse (const char *const ptr, const char **retptr)$/;"	f	language:C	file:	signature:(const char *const ptr, const char **retptr)
+memstr	setexpr.c	/^static char *memstr(const char *s1, int l1, const char *s2, int l2)$/;"	f	language:C	file:	signature:(const char *s1, int l1, const char *s2, int l2)
+menu	bootmenu.c	/^	struct bootmenu_data *menu;	\/* this bootmenu *\/$/;"	m	language:C	struct:bootmenu_entry	typeref:struct:bootmenu_entry::bootmenu_data	file:
+menu	pxe.c	/^	char *menu;$/;"	m	language:C	struct:pxe_label	file:
+menu_display_statusline	bootmenu.c	/^void menu_display_statusline(struct menu *m)$/;"	f	language:C	signature:(struct menu *m)
+menu_show	bootmenu.c	/^int menu_show(int bootdelay)$/;"	f	language:C	signature:(int bootdelay)
+mk_date	date.c	/^int mk_date (const char *datestr, struct rtc_time *tmp)$/;"	f	language:C	signature:(const char *datestr, struct rtc_time *tmp)
+mkmodestr	cramfs.c	/^char *mkmodestr(unsigned long mode, char *str)$/;"	f	language:C	signature:(unsigned long mode, char *str)
+mm_last_addr	mem.c	/^static ulong	mm_last_addr, mm_last_size;$/;"	v	language:C	file:
+mm_last_size	mem.c	/^static ulong	mm_last_addr, mm_last_size;$/;"	v	language:C	file:
+mmc_burn_image	mvebu/bubt.c	/^static int mmc_burn_image(size_t image_size)$/;"	f	language:C	file:	signature:(size_t image_size)
+mmc_nspi	dataflash_mmc_mux.c	/^static int mmc_nspi (const char *s)$/;"	f	language:C	file:	signature:(const char *s)
+mmc_partconf_print	mmc.c	/^static int mmc_partconf_print(struct mmc *mmc)$/;"	f	language:C	file:	signature:(struct mmc *mmc)
+mmc_read_file	mvebu/bubt.c	/^static size_t mmc_read_file(const char *file_name)$/;"	f	language:C	file:	signature:(const char *file_name)
+mod_i2c_mem	i2c.c	/^mod_i2c_mem(cmd_tbl_t *cmdtp, int incrflag, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int incrflag, int flag, int argc, char * const argv[])
+mod_mem	mem.c	/^mod_mem(cmd_tbl_t *cmdtp, int incrflag, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int incrflag, int flag, int argc, char * const argv[])
+mode	spi.c	/^static unsigned int	mode;$/;"	v	language:C	file:
+mtd	onenand.c	/^static struct mtd_info *mtd;$/;"	v	language:C	typeref:struct:mtd_info	file:
+mtd_device_validate	jffs2.c	/^static int mtd_device_validate(u8 type, u8 num, u32 *size)$/;"	f	language:C	file:	signature:(u8 type, u8 num, u32 *size)
+mtd_device_validate	mtdparts.c	/^static int mtd_device_validate(u8 type, u8 num, u64 *size)$/;"	f	language:C	file:	signature:(u8 type, u8 num, u64 *size)
+mtd_devices_init	mtdparts.c	/^static int mtd_devices_init(void)$/;"	f	language:C	file:	signature:(void)
+mtd_id_parse	jffs2.c	/^static int mtd_id_parse(const char *id, const char **ret_id, u8 *dev_type, u8 *dev_num)$/;"	f	language:C	file:	signature:(const char *id, const char **ret_id, u8 *dev_type, u8 *dev_num)
+mtd_id_parse	mtdparts.c	/^int mtd_id_parse(const char *id, const char **ret_id, u8 *dev_type,$/;"	f	language:C	signature:(const char *id, const char **ret_id, u8 *dev_type, u8 *dev_num)
+mtd_info	ubi.c	/^	struct mtd_info *mtd_info;$/;"	m	language:C	struct:selected_dev	typeref:struct:selected_dev::mtd_info	file:
+mtd_part_info	mtdparts.c	/^static struct part_info* mtd_part_info(struct mtd_device *dev, unsigned int part_num)$/;"	f	language:C	file:	signature:(struct mtd_device *dev, unsigned int part_num)
+mtdids	mtdparts.c	/^static struct list_head mtdids;$/;"	v	language:C	typeref:struct:list_head	file:
+mtdids_default	mtdparts.c	/^static const char *mtdids_default = MTDIDS_DEFAULT;$/;"	v	language:C	file:
+mtdparts_default	mtdparts.c	/^static const char *mtdparts_default = MTDPARTS_DEFAULT;$/;"	v	language:C	file:
+mtdparts_help_text	mtdparts.c	/^static char mtdparts_help_text[] =$/;"	v	language:C	file:
+mtdparts_init	jffs2.c	/^int mtdparts_init(void)$/;"	f	language:C	signature:(void)
+mtdparts_init	mtdparts.c	/^int mtdparts_init(void)$/;"	f	language:C	signature:(void)
+mtrr_set_valid	x86/mtrr.c	/^static int mtrr_set_valid(int reg, bool valid)$/;"	f	language:C	file:	signature:(int reg, bool valid)
+mtrr_type_name	x86/mtrr.c	/^static const char *const mtrr_type_name[MTRR_TYPE_COUNT] = {$/;"	v	language:C	file:
+mvebu_image_header	mvebu/bubt.c	/^struct mvebu_image_header {$/;"	s	language:C	file:
+mvebu_image_info	mvebu/bubt.c	/^struct mvebu_image_info {$/;"	s	language:C	file:
+name	armflash.c	/^	const char *name;$/;"	m	language:C	struct:afs_image	file:
+name	efi.c	/^	const char *name;$/;"	m	language:C	struct:attr_info	file:
+name	fdc.c	/^	const char	* name;	\/* used only for predefined formats *\/$/;"	m	language:C	struct:__anon5	file:
+name	mii.c	/^	char * name;$/;"	m	language:C	struct:_MII_field_desc_t	file:
+name	mii.c	/^	char * name;$/;"	m	language:C	struct:_MII_reg_desc_t	file:
+name	mvebu/bubt.c	/^	char name[8];$/;"	m	language:C	struct:bubt_dev	file:
+name	pci.c	/^	const char *name;$/;"	m	language:C	struct:pci_flag_info	file:
+name	pci.c	/^	const char *name;$/;"	m	language:C	struct:pci_reg_info	file:
+name	pxe.c	/^	char *name;$/;"	m	language:C	struct:pxe_label	file:
+name_to_gpio	gpio.c	/^__weak int name_to_gpio(const char *name)$/;"	f	language:C	signature:(const char *name)
+nand_burn_image	mvebu/bubt.c	/^static int nand_burn_image(size_t image_size)$/;"	f	language:C	file:	signature:(size_t image_size)
+nand_dump	nand.c	/^static int nand_dump(struct mtd_info *mtd, ulong off, int only_oob,$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, ulong off, int only_oob, int repeat)
+nand_env_oob_offset	nand.c	/^unsigned long nand_env_oob_offset;$/;"	v	language:C
+nand_help_text	nand.c	/^static char nand_help_text[] =$/;"	v	language:C	file:
+nand_imls_fitimage	bootm.c	/^static int nand_imls_fitimage(struct mtd_info *mtd, int nand_dev, loff_t off,$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, int nand_dev, loff_t off, size_t len)
+nand_imls_legacyimage	bootm.c	/^static int nand_imls_legacyimage(struct mtd_info *mtd, int nand_dev,$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, int nand_dev, loff_t off, size_t len)
+nand_load_image	nand.c	/^static int nand_load_image(cmd_tbl_t *cmdtp, struct mtd_info *mtd,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, struct mtd_info *mtd, ulong offset, ulong addr, char *cmd)
+nand_print_and_set_info	nand.c	/^static void nand_print_and_set_info(int idx)$/;"	f	language:C	file:	signature:(int idx)
+net_part_size	mtdparts.c	/^static uint64_t net_part_size(struct mtd_info *mtd, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, struct part_info *part)
+netboot_common	net.c	/^static int netboot_common(enum proto_t proto, cmd_tbl_t *cmdtp, int argc,$/;"	f	language:C	file:	signature:(enum proto_t proto, cmd_tbl_t *cmdtp, int argc, char * const argv[])
+netboot_update_env	net.c	/^static void netboot_update_env(void)$/;"	f	language:C	file:	signature:(void)
+next	bootmenu.c	/^	struct bootmenu_entry *next;	\/* next menu entry (num+1) *\/$/;"	m	language:C	struct:bootmenu_entry	typeref:struct:bootmenu_entry::bootmenu_entry	file:
+next_image_id	mvebu/bubt.c	/^	u32	next_image_id;$/;"	m	language:C	struct:mvebu_image_info	file:
+next_ofs	onenand.c	/^static loff_t next_ofs;$/;"	v	language:C	file:
+nr	ubi.c	/^	int nr;$/;"	m	language:C	struct:selected_dev	file:
+num	bootmenu.c	/^	unsigned short int num;		\/* unique number 0 .. MAX_COUNT *\/$/;"	m	language:C	struct:bootmenu_entry	file:
+num	pxe.c	/^	char num[4];$/;"	m	language:C	struct:pxe_label	file:
+num_afs_images	armflash.c	/^static int num_afs_images;$/;"	v	language:C	file:
+num_images	mvebu/bubt.c	/^	u32	num_images;$/;"	m	language:C	struct:common_tim_data	file:
+num_keys	mvebu/bubt.c	/^	u32	num_keys;$/;"	m	language:C	struct:common_tim_data	file:
+nvme_curr_dev	nvme.c	/^static int nvme_curr_dev;$/;"	v	language:C	file:
+oem_unique_id	mvebu/bubt.c	/^	u32	oem_unique_id;$/;"	m	language:C	struct:common_tim_data	file:
+off	legacy_led.c	/^	void		(*off)(void);	\/* Optional function for turning LED off *\/$/;"	m	language:C	struct:led_tbl_s	file:
+offset	armflash.c	/^	u32 offset;$/;"	m	language:C	struct:afs_region	file:
+offset	pci.c	/^	u8 offset;$/;"	m	language:C	struct:pci_reg_info	file:
+on	legacy_led.c	/^	void		(*on)(void);	\/* Optional function for turning LED on *\/$/;"	m	language:C	struct:led_tbl_s	file:
+onenand_block_erase	onenand.c	/^static int onenand_block_erase(u32 start, u32 size, int force)$/;"	f	language:C	file:	signature:(u32 start, u32 size, int force)
+onenand_block_read	onenand.c	/^static int onenand_block_read(loff_t from, size_t len,$/;"	f	language:C	file:	signature:(loff_t from, size_t len, size_t *retlen, u_char *buf, int oob)
+onenand_block_test	onenand.c	/^static int onenand_block_test(u32 start, u32 size)$/;"	f	language:C	file:	signature:(u32 start, u32 size)
+onenand_block_write	onenand.c	/^static int onenand_block_write(loff_t to, size_t len,$/;"	f	language:C	file:	signature:(loff_t to, size_t len, size_t *retlen, const u_char * buf, int withoob)
+onenand_dump	onenand.c	/^static int onenand_dump(struct mtd_info *mtd, ulong off, int only_oob)$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, ulong off, int only_oob)
+onenand_reloc	onenand.c	/^void onenand_reloc(void) {$/;"	f	language:C	signature:(void)
+onenand_write_oneblock_withoob	onenand.c	/^static int onenand_write_oneblock_withoob(loff_t to, const u_char * buf,$/;"	f	language:C	file:	signature:(loff_t to, const u_char * buf, size_t *retlen)
+op	itest.c	/^	char	*op;		\/* operator string *\/$/;"	m	language:C	struct:op_tbl_s	file:
+op	test.c	/^	int op;$/;"	m	language:C	struct:__anon8	file:
+op_adv	test.c	/^} op_adv[] = {$/;"	v	language:C	typeref:struct:__anon8
+op_table	itest.c	/^static const op_tbl_t op_table [] = {$/;"	v	language:C	file:
+op_tbl_s	itest.c	/^struct op_tbl_s {$/;"	s	language:C	file:
+op_tbl_t	itest.c	/^typedef struct op_tbl_s op_tbl_t;$/;"	t	language:C	typeref:struct:op_tbl_s	file:
+opcode	itest.c	/^	int	opcode;		\/* internal representation of opcode *\/$/;"	m	language:C	struct:op_tbl_s	file:
+os_data_addr	load.c	/^static char *os_data_addr, *os_data_addr_saved;$/;"	v	language:C	file:
+os_data_addr_saved	load.c	/^static char *os_data_addr, *os_data_addr_saved;$/;"	v	language:C	file:
+os_data_char	load.c	/^static void (*os_data_char)(char new_char);$/;"	v	language:C	file:
+os_data_init	load.c	/^static void (*os_data_init)(void);$/;"	v	language:C	file:
+os_data_restore	load.c	/^static void os_data_restore(void)$/;"	f	language:C	file:	signature:(void)
+os_data_save	load.c	/^static void os_data_save(void)$/;"	f	language:C	file:	signature:(void)
+os_data_state	load.c	/^static int os_data_state, os_data_state_saved;$/;"	v	language:C	file:
+os_data_state_saved	load.c	/^static int os_data_state, os_data_state_saved;$/;"	v	language:C	file:
+parse_action	eeprom.c	/^static enum eeprom_action parse_action(char *cmd)$/;"	f	language:C	file:	signature:(char *cmd)
+parse_argv	cache.c	/^static int parse_argv(const char *s)$/;"	f	language:C	file:	signature:(const char *s)
+parse_bank	armflash.c	/^static void parse_bank(ulong bank)$/;"	f	language:C	file:	signature:(ulong bank)
+parse_byte_string	tpm.c	/^static void *parse_byte_string(char *bytes, uint8_t *data, size_t *count_ptr)$/;"	f	language:C	file:	signature:(char *bytes, uint8_t *data, size_t *count_ptr)
+parse_flash	armflash.c	/^static void parse_flash(void)$/;"	f	language:C	file:	signature:(void)
+parse_hwpart_gp	mmc.c	/^static int parse_hwpart_gp(struct mmc_hwpart_conf *pconf, int pidx,$/;"	f	language:C	file:	signature:(struct mmc_hwpart_conf *pconf, int pidx, int argc, char * const argv[])
+parse_hwpart_user	mmc.c	/^static int parse_hwpart_user(struct mmc_hwpart_conf *pconf,$/;"	f	language:C	file:	signature:(struct mmc_hwpart_conf *pconf, int argc, char * const argv[])
+parse_i2c_bus_addr	eeprom.c	/^static int parse_i2c_bus_addr(int *i2c_bus, ulong *i2c_addr, int argc,$/;"	f	language:C	file:	signature:(int *i2c_bus, ulong *i2c_addr, int argc, char * const argv[], int argc_no_bus_addr)
+parse_integer	pxe.c	/^static int parse_integer(char **c, int *dst)$/;"	f	language:C	file:	signature:(char **c, int *dst)
+parse_label	pxe.c	/^static int parse_label(char **c, struct pxe_menu *cfg)$/;"	f	language:C	file:	signature:(char **c, struct pxe_menu *cfg)
+parse_label_menu	pxe.c	/^static int parse_label_menu(char **c, struct pxe_menu *cfg,$/;"	f	language:C	file:	signature:(char **c, struct pxe_menu *cfg, struct pxe_label *label)
+parse_menu	pxe.c	/^static int parse_menu(cmd_tbl_t *cmdtp, char **c, struct pxe_menu *cfg,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, char **c, struct pxe_menu *cfg, unsigned long base, int nest_level)
+parse_mtdids	mtdparts.c	/^static int parse_mtdids(const char *const ids)$/;"	f	language:C	file:	signature:(const char *const ids)
+parse_mtdparts	mtdparts.c	/^static int parse_mtdparts(const char *const mtdparts)$/;"	f	language:C	file:	signature:(const char *const mtdparts)
+parse_numeric_param	eeprom.c	/^static int parse_numeric_param(char *str)$/;"	f	language:C	file:	signature:(char *str)
+parse_partnum	bootefi.c	/^static int parse_partnum(const char *devnr)$/;"	f	language:C	file:	signature:(const char *devnr)
+parse_pxefile	pxe.c	/^static struct pxe_menu *parse_pxefile(cmd_tbl_t *cmdtp, unsigned long menucfg)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, unsigned long menucfg)
+parse_pxefile_top	pxe.c	/^static int parse_pxefile_top(cmd_tbl_t *cmdtp, char *p, unsigned long base,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, char *p, unsigned long base, struct pxe_menu *cfg, int nest_level)
+parse_sliteral	pxe.c	/^static int parse_sliteral(char **c, char **dst)$/;"	f	language:C	file:	signature:(char **c, char **dst)
+parse_verify_sum	md5sum.c	/^static int parse_verify_sum(char *verify_str, u8 *vsum)$/;"	f	language:C	file:	signature:(char *verify_str, u8 *vsum)
+part_add	mtdparts.c	/^static int part_add(struct mtd_device *dev, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtd_device *dev, struct part_info *part)
+part_del	mtdparts.c	/^static int part_del(struct mtd_device *dev, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtd_device *dev, struct part_info *part)
+part_delall	mtdparts.c	/^static void part_delall(struct list_head *head)$/;"	f	language:C	file:	signature:(struct list_head *head)
+part_name	ubi.c	/^	char part_name[80];$/;"	m	language:C	struct:selected_dev	file:
+part_parse	mtdparts.c	/^static int part_parse(const char *const partdef, const char **ret, struct part_info **retpart)$/;"	f	language:C	file:	signature:(const char *const partdef, const char **ret, struct part_info **retpart)
+part_sort_add	mtdparts.c	/^static int part_sort_add(struct mtd_device *dev, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtd_device *dev, struct part_info *part)
+part_validate	mtdparts.c	/^static int part_validate(struct mtdids *id, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtdids *id, struct part_info *part)
+part_validate_eraseblock	mtdparts.c	/^static int part_validate_eraseblock(struct mtdids *id, struct part_info *part)$/;"	f	language:C	file:	signature:(struct mtdids *id, struct part_info *part)
+partition_number	mvebu/bubt.c	/^	u32	partition_number;$/;"	m	language:C	struct:mvebu_image_info	file:
+pci_bar_show	pci.c	/^int pci_bar_show(struct udevice *dev)$/;"	f	language:C	signature:(struct udevice *dev)
+pci_bs	tsi148.c	/^	unsigned int  pci_bs;$/;"	m	language:C	struct:_TSI148_DEV	file:
+pci_bs	universe.c	/^	unsigned int   pci_bs;$/;"	m	language:C	struct:_UNI_DEV	file:
+pci_byte_size	pci.c	/^static int pci_byte_size(enum pci_size_t size)$/;"	f	language:C	file:	signature:(enum pci_size_t size)
+pci_cfg_display	pci.c	/^static int pci_cfg_display(struct udevice *dev, ulong addr,$/;"	f	language:C	file:	signature:(struct udevice *dev, ulong addr, enum pci_size_t size, ulong length)
+pci_cfg_modify	pci.c	/^static int pci_cfg_modify(struct udevice *dev, ulong addr, ulong size,$/;"	f	language:C	file:	signature:(struct udevice *dev, ulong addr, ulong size, ulong value, int incrflag)
+pci_cfg_write	pci.c	/^static int pci_cfg_write (pci_dev_t bdf, ulong addr, ulong size, ulong value)$/;"	f	language:C	file:	signature:(pci_dev_t bdf, ulong addr, ulong size, ulong value)
+pci_field_width	pci.c	/^static int pci_field_width(enum pci_size_t size)$/;"	f	language:C	file:	signature:(enum pci_size_t size)
+pci_flag_info	pci.c	/^static const struct pci_flag_info {$/;"	s	language:C	file:
+pci_flag_info	pci.c	/^} pci_flag_info[] = {$/;"	v	language:C	typeref:struct:pci_flag_info	file:
+pci_header_show	pci.c	/^void pci_header_show(struct udevice *dev)$/;"	f	language:C	signature:(struct udevice *dev)
+pci_header_show_brief	pci.c	/^static void pci_header_show_brief(struct udevice *dev)$/;"	f	language:C	file:	signature:(struct udevice *dev)
+pci_header_show_brief	pci.c	/^void pci_header_show_brief(pci_dev_t dev)$/;"	f	language:C	signature:(pci_dev_t dev)
+pci_help_text	pci.c	/^static char pci_help_text[] =$/;"	v	language:C	file:
+pci_read_config	pci.c	/^static unsigned long pci_read_config(pci_dev_t dev, int offset,$/;"	f	language:C	file:	signature:(pci_dev_t dev, int offset, enum pci_size_t size)
+pci_reg_info	pci.c	/^struct pci_reg_info {$/;"	s	language:C	file:
+pci_show_regions	pci.c	/^static void pci_show_regions(struct udevice *bus)$/;"	f	language:C	file:	signature:(struct udevice *bus)
+pci_show_regs	pci.c	/^static void pci_show_regs(pci_dev_t dev, struct pci_reg_info *regs)$/;"	f	language:C	file:	signature:(pci_dev_t dev, struct pci_reg_info *regs)
+pci_show_regs	pci.c	/^static void pci_show_regs(struct udevice *dev, struct pci_reg_info *regs)$/;"	f	language:C	file:	signature:(struct udevice *dev, struct pci_reg_info *regs)
+pciinfo	pci.c	/^static void pciinfo(struct udevice *bus, bool short_listing)$/;"	f	language:C	file:	signature:(struct udevice *bus, bool short_listing)
+pciinfo	pci.c	/^void pciinfo(int bus_num, int short_pci_listing)$/;"	f	language:C	signature:(int bus_num, int short_pci_listing)
+pciinfo_header	pci.c	/^void pciinfo_header(int busnum, bool short_listing)$/;"	f	language:C	signature:(int busnum, bool short_listing)
+pdesc	mii.c	/^	const MII_field_desc_t *pdesc;$/;"	m	language:C	struct:_MII_field_desc_and_len_t	file:
+portspeed	usb.c	/^static inline char *portspeed(int speed)$/;"	f	language:C	file:	signature:(int speed)
+prettyprint_part_size	gpt.c	/^static void prettyprint_part_size(char *sizestr, lbaint_t partsize,$/;"	f	language:C	file:	signature:(char *sizestr, lbaint_t partsize, lbaint_t blksize)
+print_active_callback	nvedit.c	/^static int print_active_callback(ENTRY *entry)$/;"	f	language:C	file:	signature:(ENTRY *entry)
+print_active_flags	nvedit.c	/^static int print_active_flags(ENTRY *entry)$/;"	f	language:C	file:	signature:(ENTRY *entry)
+print_baudrate	bdinfo.c	/^static inline void print_baudrate(void)$/;"	f	language:C	file:	signature:(void)
+print_bi_boot_params	bdinfo.c	/^static inline void print_bi_boot_params(const bd_t *bd)$/;"	f	language:C	file:	signature:(const bd_t *bd)
+print_bi_dram	bdinfo.c	/^static inline void print_bi_dram(const bd_t *bd)$/;"	f	language:C	file:	signature:(const bd_t *bd)
+print_bi_flash	bdinfo.c	/^static inline void print_bi_flash(const bd_t *bd)$/;"	f	language:C	file:	signature:(const bd_t *bd)
+print_bi_mem	bdinfo.c	/^static inline void print_bi_mem(const bd_t *bd)$/;"	f	language:C	file:	signature:(const bd_t *bd)
+print_byte_string	tpm.c	/^static void print_byte_string(uint8_t *data, size_t count)$/;"	f	language:C	file:	signature:(uint8_t *data, size_t count)
+print_cpu_list	cpu.c	/^static int print_cpu_list(bool detail)$/;"	f	language:C	file:	signature:(bool detail)
+print_data	fdt.c	/^static void print_data(const void *data, int len)$/;"	f	language:C	file:	signature:(const void *data, int len)
+print_ddr2_tcyc	i2c.c	/^static void print_ddr2_tcyc (u_char const b)$/;"	f	language:C	file:	signature:(u_char const b)
+print_eth	bdinfo.c	/^static void print_eth(int idx)$/;"	f	language:C	file:	signature:(int idx)
+print_eth_ip_addr	bdinfo.c	/^static inline void print_eth_ip_addr(void)$/;"	f	language:C	file:	signature:(void)
+print_eths	bdinfo.c	/^static void print_eths(void)$/;"	f	language:C	file:	signature:(void)
+print_fixed	pcmcia.c	/^static void print_fixed (volatile uchar *p)$/;"	f	language:C	file:	signature:(volatile uchar *p)
+print_funcid	pcmcia.c	/^static void print_funcid (int func)$/;"	f	language:C	file:	signature:(int func)
+print_gpt_info	gpt.c	/^static void print_gpt_info(void)$/;"	f	language:C	file:	signature:(void)
+print_images	armflash.c	/^static void print_images(void)$/;"	f	language:C	file:	signature:(void)
+print_lnum	bdinfo.c	/^static void print_lnum(const char *name, unsigned long long value)$/;"	f	language:C	file:	signature:(const char *name, unsigned long long value)
+print_mhz	bdinfo.c	/^static void print_mhz(const char *name, unsigned long hz)$/;"	f	language:C	file:	signature:(const char *name, unsigned long hz)
+print_mmcinfo	mmc.c	/^static void print_mmcinfo(struct mmc *mmc)$/;"	f	language:C	file:	signature:(struct mmc *mmc)
+print_num	bdinfo.c	/^static void print_num(const char *name, ulong value)$/;"	f	language:C	file:	signature:(const char *name, ulong value)
+print_partition_table	mtdparts.c	/^static void print_partition_table(void)$/;"	f	language:C	file:	signature:(void)
+print_remoteproc_list	remoteproc.c	/^static int print_remoteproc_list(void)$/;"	f	language:C	file:	signature:(void)
+print_static_binding	nvedit.c	/^static int print_static_binding(const char *var_name, const char *callback_name,$/;"	f	language:C	file:	signature:(const char *var_name, const char *callback_name, void *priv)
+print_static_flags	nvedit.c	/^static int print_static_flags(const char *var_name, const char *flags,$/;"	f	language:C	file:	signature:(const char *var_name, const char *flags, void *priv)
+print_status	nand.c	/^static void print_status(ulong start, ulong end, ulong erasesize, int status)$/;"	f	language:C	file:	signature:(ulong start, ulong end, ulong erasesize, int status)
+print_std_bdinfo	bdinfo.c	/^static inline void __maybe_unused print_std_bdinfo(const bd_t *bd)$/;"	f	language:C	file:	signature:(const bd_t *bd)
+prolog_checksum	mvebu/bubt.c	/^	u32	prolog_checksum;	\/*  8-11 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+prolog_size	mvebu/bubt.c	/^	u32	prolog_size;		\/*  4-7  *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+prompt	pxe.c	/^	int prompt;$/;"	m	language:C	struct:pxe_menu	file:
+pxe_default_paths	pxe.c	/^const char *pxe_default_paths[] = {$/;"	v	language:C
+pxe_ipaddr_paths	pxe.c	/^static int pxe_ipaddr_paths(cmd_tbl_t *cmdtp, unsigned long pxefile_addr_r)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, unsigned long pxefile_addr_r)
+pxe_label	pxe.c	/^struct pxe_label {$/;"	s	language:C	file:
+pxe_mac_path	pxe.c	/^static int pxe_mac_path(cmd_tbl_t *cmdtp, unsigned long pxefile_addr_r)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, unsigned long pxefile_addr_r)
+pxe_menu	pxe.c	/^struct pxe_menu {$/;"	s	language:C	file:
+pxe_menu_to_menu	pxe.c	/^static struct menu *pxe_menu_to_menu(struct pxe_menu *cfg)$/;"	f	language:C	file:	signature:(struct pxe_menu *cfg)
+pxe_uuid_path	pxe.c	/^static int pxe_uuid_path(cmd_tbl_t *cmdtp, unsigned long pxefile_addr_r)$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, unsigned long pxefile_addr_r)
+qemu_fwcfg_do_cpus	qfw.c	/^static int qemu_fwcfg_do_cpus(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+qemu_fwcfg_do_list	qfw.c	/^static int qemu_fwcfg_do_list(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+qemu_fwcfg_do_load	qfw.c	/^static int qemu_fwcfg_do_load(cmd_tbl_t *cmdtp, int flag,$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+qemu_fwcfg_list_firmware	qfw.c	/^static int qemu_fwcfg_list_firmware(void)$/;"	f	language:C	file:	signature:(void)
+qemu_fwcfg_setup_kernel	qfw.c	/^static int qemu_fwcfg_setup_kernel(void *load_addr, void *initrd_addr)$/;"	f	language:C	file:	signature:(void *load_addr, void *initrd_addr)
+rate	fdc.c	/^	unsigned char	rate;	\/* data rate. |= 0x40 for perpendicular *\/$/;"	m	language:C	struct:__anon5	file:
+raw_access	nand.c	/^static int raw_access(struct mtd_info *mtd, ulong addr, loff_t off,$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, ulong addr, loff_t off, ulong count, int read, int no_verify)
+read	mvebu/bubt.c	/^	size_t (*read)(const char *file_name);$/;"	m	language:C	struct:bubt_dev	file:
+read_fdc_byte	fdc.c	/^int read_fdc_byte(void)$/;"	f	language:C	signature:(void)
+read_fdc_reg	fdc.c	/^unsigned char read_fdc_reg(unsigned int addr)$/;"	f	language:C	signature:(unsigned int addr)
+read_record	load.c	/^static int read_record(char *buf, ulong len)$/;"	f	language:C	file:	signature:(char *buf, ulong len)
+reboot	tpm_test.c	161;"	d	language:C	file:
+reg_0_5_desc_tbl	mii.c	/^static const MII_reg_desc_t reg_0_5_desc_tbl[] = {$/;"	v	language:C	file:
+reg_0_desc_tbl	mii.c	/^static const MII_field_desc_t reg_0_desc_tbl[] = {$/;"	v	language:C	file:
+reg_1_desc_tbl	mii.c	/^static const MII_field_desc_t reg_1_desc_tbl[] = {$/;"	v	language:C	file:
+reg_2_desc_tbl	mii.c	/^static const MII_field_desc_t reg_2_desc_tbl[] = {$/;"	v	language:C	file:
+reg_3_desc_tbl	mii.c	/^static const MII_field_desc_t reg_3_desc_tbl[] = {$/;"	v	language:C	file:
+reg_4_desc_tbl	mii.c	/^static const MII_field_desc_t reg_4_desc_tbl[] = {$/;"	v	language:C	file:
+reg_5_desc_tbl	mii.c	/^static const MII_field_desc_t reg_5_desc_tbl[] = {$/;"	v	language:C	file:
+regex_sub	setexpr.c	/^static int regex_sub(const char *name,$/;"	f	language:C	file:	signature:(const char *name, const char *r, const char *s, const char *t, int global)
+region_count	armflash.c	/^	u32 region_count;$/;"	m	language:C	struct:afs_image	file:
+regions	armflash.c	/^	struct afs_region regions[MAX_REGIONS];$/;"	m	language:C	struct:afs_image	typeref:struct:afs_image::afs_region	file:
+regno	mii.c	/^	ushort regno;$/;"	m	language:C	struct:_MII_reg_desc_t	file:
+regs_bridge	pci.c	/^static struct pci_reg_info regs_bridge[] = {$/;"	v	language:C	typeref:struct:pci_reg_info	file:
+regs_cardbus	pci.c	/^static struct pci_reg_info regs_cardbus[] = {$/;"	v	language:C	typeref:struct:pci_reg_info	file:
+regs_normal	pci.c	/^static struct pci_reg_info regs_normal[] = {$/;"	v	language:C	typeref:struct:pci_reg_info	file:
+regs_rest	pci.c	/^static struct pci_reg_info regs_rest[] = {$/;"	v	language:C	typeref:struct:pci_reg_info	file:
+regs_start	pci.c	/^static struct pci_reg_info regs_start[] = {$/;"	v	language:C	typeref:struct:pci_reg_info	file:
+report_return_code	tpm.c	/^static int report_return_code(int return_code)$/;"	f	language:C	file:	signature:(int return_code)
+report_time	time.c	/^static void report_time(ulong cycles)$/;"	f	language:C	file:	signature:(ulong cycles)
+reserved	mvebu/bubt.c	/^	u32	reserved[5];		\/* Reserve 20 bytes *\/$/;"	m	language:C	struct:common_tim_data	file:
+result	fdc.c	/^	uchar		result[11];	\/* status information *\/$/;"	m	language:C	struct:__anon4	file:
+resultlen	fdc.c	/^	uchar		resultlen;	\/* lenght of result *\/$/;"	m	language:C	struct:__anon4	file:
+rsrvd0	mvebu/bubt.c	/^	u32	rsrvd0;			\/* 20-23 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+rsrvd1	mvebu/bubt.c	/^	u32	rsrvd1;			\/* 52-55 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+rsrvd2	mvebu/bubt.c	/^	u32	rsrvd2;			\/* 56-59 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+rsrvd3	mvebu/bubt.c	/^	u32	rsrvd3;			\/* 60-63 *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+rstrip	ini.c	/^static char *rstrip(char *s)$/;"	f	language:C	file:	signature:(char *s)
+s1_sendpacket	load.c	/^static void s1_sendpacket(char *packet)$/;"	f	language:C	file:	signature:(char *packet)
+sata_curr_device	sata.c	/^static int sata_curr_device = -1;$/;"	v	language:C	file:
+sata_probe	sata.c	/^int sata_probe(int devnum)$/;"	f	language:C	signature:(int devnum)
+sata_remove	sata.c	/^int sata_remove(int devnum)$/;"	f	language:C	signature:(int devnum)
+save_serial	load.c	/^static int save_serial(ulong address, ulong count)$/;"	f	language:C	file:	signature:(ulong address, ulong count)
+scsi_curr_dev	scsi.c	/^static int scsi_curr_dev; \/* current device *\/$/;"	v	language:C	file:
+sect	fdc.c	/^	unsigned int sect;	\/* sectors per track *\/$/;"	m	language:C	struct:__anon5	file:
+sect_code	fdc.c	/^	unsigned char sect_code;\/* Sector Size code *\/$/;"	m	language:C	struct:__anon5	file:
+select_fdc_drive	fdc.c	/^void select_fdc_drive(FDC_COMMAND_STRUCT *pCMD)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD)
+selected	ubi.c	/^	int selected;$/;"	m	language:C	struct:selected_dev	file:
+selected_dev	ubi.c	/^struct selected_dev {$/;"	s	language:C	file:
+send_ack	load.c	/^static void send_ack(int n)$/;"	f	language:C	file:	signature:(int n)
+send_nack	load.c	/^static void send_nack(int n)$/;"	f	language:C	file:	signature:(int n)
+send_pad	load.c	/^static void send_pad(void)$/;"	f	language:C	file:	signature:(void)
+send_parms	load.c	/^static char send_parms[SEND_DATA_SIZE];$/;"	v	language:C	file:
+send_ptr	load.c	/^static char *send_ptr;$/;"	v	language:C	file:
+set_dev	nand.c	/^static int set_dev(int dev)$/;"	f	language:C	file:	signature:(int dev)
+set_gpt_cleanup	gpt.c	/^static void set_gpt_cleanup(char **str_disk_guid,$/;"	f	language:C	file:	signature:(char **str_disk_guid, disk_partition_t **partitions)
+set_gpt_info	gpt.c	/^static int set_gpt_info(struct blk_desc *dev_desc,$/;"	f	language:C	file:	signature:(struct blk_desc *dev_desc, const char *str_part, char **str_disk_guid, disk_partition_t **partitions, u8 *parts_count)
+set_kerm_bin_mode	load.c	/^static void set_kerm_bin_mode(unsigned long *addr)$/;"	f	language:C	file:	signature:(unsigned long *addr)
+set_load_options	bootefi.c	/^static void set_load_options(struct efi_loaded_image *loaded_image_info,$/;"	f	language:C	file:	signature:(struct efi_loaded_image *loaded_image_info, const char *env_var)
+set_working_fdt_addr	fdt.c	/^void set_working_fdt_addr(ulong addr)$/;"	f	language:C	signature:(ulong addr)
+sf_parse_len_arg	sf.c	/^static int sf_parse_len_arg(char *arg, ulong *len)$/;"	f	language:C	file:	signature:(char *arg, ulong *len)
+shift	efi.c	/^	int shift;$/;"	m	language:C	struct:attr_info	file:
+show_bus	i2c.c	/^static void show_bus(struct udevice *bus)$/;"	f	language:C	file:	signature:(struct udevice *bus)
+show_led_state	led.c	/^static int show_led_state(struct udevice *dev)$/;"	f	language:C	file:	signature:(struct udevice *dev)
+show_time	sf.c	/^static void show_time(struct test_info *test, int stage)$/;"	f	language:C	file:	signature:(struct test_info *test, int stage)
+size	armflash.c	/^	u32 size;$/;"	m	language:C	struct:afs_region	file:
+size	fdc.c	/^	unsigned int size;	\/* nr of sectors total *\/$/;"	m	language:C	struct:__anon5	file:
+size	pci.c	/^	enum pci_size_t size;$/;"	m	language:C	struct:pci_reg_info	typeref:enum:pci_reg_info::pci_size_t	file:
+size_of_reserved	mvebu/bubt.c	/^	u32	size_of_reserved;$/;"	m	language:C	struct:common_tim_data	file:
+skip_ofs	onenand.c	/^static loff_t skip_ofs;$/;"	v	language:C	file:
+soc_clk_dump	clk.c	/^int __weak soc_clk_dump(void)$/;"	f	language:C	signature:(void)
+source	source.c	/^source (ulong addr, const char *fit_uname)$/;"	f	language:C	signature:(ulong addr, const char *fit_uname)
+source_help_text	source.c	/^static char source_help_text[] =$/;"	v	language:C	file:
+spec1	fdc.c	/^	unsigned char	spec1;	\/* stepping rate, head unload time *\/$/;"	m	language:C	struct:__anon5	file:
+special_field	mii.c	/^static int special_field($/;"	f	language:C	file:	signature:( ushort regno, const MII_field_desc_t *pdesc, ushort regval)
+spi_burn_image	mvebu/bubt.c	/^static int spi_burn_image(size_t image_size)$/;"	f	language:C	file:	signature:(size_t image_size)
+spi_flash_test	sf.c	/^static int spi_flash_test(struct spi_flash *flash, uint8_t *buf, ulong len,$/;"	f	language:C	file:	signature:(struct spi_flash *flash, uint8_t *buf, ulong len, ulong offset, uint8_t *vbuf)
+spi_flash_update	sf.c	/^static int spi_flash_update(struct spi_flash *flash, u32 offset,$/;"	f	language:C	file:	signature:(struct spi_flash *flash, u32 offset, size_t len, const char *buf)
+spi_flash_update_block	sf.c	/^static const char *spi_flash_update_block(struct spi_flash *flash, u32 offset,$/;"	f	language:C	file:	signature:(struct spi_flash *flash, u32 offset, size_t len, const char *buf, char *cmp_buf, size_t *skipped)
+spi_test_next_stage	sf.c	/^static void spi_test_next_stage(struct test_info *test)$/;"	f	language:C	file:	signature:(struct test_info *test)
+spl_export	spl.c	/^static int spl_export(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	language:C	file:	signature:(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
+spread_partition	mtdparts.c	/^static void spread_partition(struct mtd_info *mtd, struct part_info *part,$/;"	f	language:C	file:	signature:(struct mtd_info *mtd, struct part_info *part, uint64_t *next_offset)
+spread_partitions	mtdparts.c	/^static int spread_partitions(void)$/;"	f	language:C	file:	signature:(void)
+stage	sf.c	/^	int stage;$/;"	m	language:C	struct:test_info	file:
+stage_name	sf.c	/^static char *stage_name[STAGE_COUNT] = {$/;"	v	language:C	file:
+start_addr	strings.c	/^static char *start_addr, *last_addr;$/;"	v	language:C	file:
+state_label	led.c	/^static const char *const state_label[] = {$/;"	v	language:C	file:
+stop_fdc_drive	fdc.c	/^void stop_fdc_drive(FDC_COMMAND_STRUCT *pCMD)$/;"	f	language:C	signature:(FDC_COMMAND_STRUCT *pCMD)
+store_result	md5sum.c	/^static void store_result(const u8 *sum, const char *dest)$/;"	f	language:C	file:	signature:(const u8 *sum, const char *dest)
+str	test.c	/^	const char *str;$/;"	m	language:C	struct:__anon8	file:
+stretch	fdc.c	/^	unsigned int stretch;	\/* !=0 means double track steps *\/$/;"	m	language:C	struct:__anon5	file:
+string	legacy_led.c	/^	char		*string;	\/* String for use in the command *\/$/;"	m	language:C	struct:led_tbl_s	file:
+stringcomp	itest.c	/^static int stringcomp(char *s, char *t, int op)$/;"	f	language:C	file:	signature:(char *s, char *t, int op)
+strncpy0	ini.c	/^static char *strncpy0(char *dest, const char *src, size_t size)$/;"	f	language:C	file:	signature:(char *dest, const char *src, size_t size)
+strtou32	fuse.c	/^static int strtou32(const char *str, unsigned int base, u32 *result)$/;"	f	language:C	file:	signature:(const char *str, unsigned int base, u32 *result)
+subcmd	pmic.c	/^static cmd_tbl_t subcmd[] = {$/;"	v	language:C	file:
+subcmd	regulator.c	/^static cmd_tbl_t subcmd[] = {$/;"	v	language:C	file:
+subcmd_list	spl.c	/^static const char **subcmd_list[] = {$/;"	v	language:C	file:
+substitute	setexpr.c	/^static char *substitute(char *string,	\/* string buffer *\/$/;"	f	language:C	file:	signature:(char *string, int *slen, int ssize, const char *old, int olen, const char *new, int nlen)
+test_early_extend	tpm_test.c	/^static int test_early_extend(void)$/;"	f	language:C	file:	signature:(void)
+test_early_nvram	tpm_test.c	/^static int test_early_nvram(void)$/;"	f	language:C	file:	signature:(void)
+test_early_nvram2	tpm_test.c	/^static int test_early_nvram2(void)$/;"	f	language:C	file:	signature:(void)
+test_enable	tpm_test.c	/^static int test_enable(void)$/;"	f	language:C	file:	signature:(void)
+test_fast_enable	tpm_test.c	/^static int test_fast_enable(void)$/;"	f	language:C	file:	signature:(void)
+test_global_lock	tpm_test.c	/^static int test_global_lock(void)$/;"	f	language:C	file:	signature:(void)
+test_info	sf.c	/^struct test_info {$/;"	s	language:C	file:
+test_lock	tpm_test.c	/^static int test_lock(void)$/;"	f	language:C	file:	signature:(void)
+test_readonly	tpm_test.c	/^static int test_readonly(void)$/;"	f	language:C	file:	signature:(void)
+test_redefine_unowned	tpm_test.c	/^static int test_redefine_unowned(void)$/;"	f	language:C	file:	signature:(void)
+test_space_perm	tpm_test.c	/^static int test_space_perm(void)$/;"	f	language:C	file:	signature:(void)
+test_startup	tpm_test.c	/^static int test_startup(void)$/;"	f	language:C	file:	signature:(void)
+test_timer	tpm_test.c	/^static int test_timer(void)$/;"	f	language:C	file:	signature:(void)
+test_timing	tpm_test.c	/^static int test_timing(void)$/;"	f	language:C	file:	signature:(void)
+test_write_limit	tpm_test.c	/^static int test_write_limit(void)$/;"	f	language:C	file:	signature:(void)
+tftp_read_file	mvebu/bubt.c	/^static size_t tftp_read_file(const char *file_name)$/;"	f	language:C	file:	signature:(const char *file_name)
+time_ms	sf.c	/^	unsigned time_ms[STAGE_COUNT];$/;"	m	language:C	struct:test_info	file:
+timeout	pxe.c	/^	int timeout;$/;"	m	language:C	struct:pxe_menu	file:
+title	bootmenu.c	/^	char *title;			\/* title of entry *\/$/;"	m	language:C	struct:bootmenu_entry	file:
+title	pxe.c	/^	char *title;$/;"	m	language:C	struct:pxe_menu	file:
+tochar	load.c	404;"	d	language:C	file:
+toggle	legacy_led.c	/^	void		(*toggle)(void);\/* Optional function for toggling LED *\/$/;"	m	language:C	struct:led_tbl_s	file:
+token	pxe.c	/^struct token {$/;"	s	language:C	file:
+token_type	pxe.c	/^enum token_type {$/;"	g	language:C	file:
+tpm_commands	tpm.c	/^static cmd_tbl_t tpm_commands[] = {$/;"	v	language:C	file:
+tpm_get_flags	tpm_test.c	/^static uint32_t tpm_get_flags(uint8_t *disable, uint8_t *deactivated,$/;"	f	language:C	file:	signature:(uint8_t *disable, uint8_t *deactivated, uint8_t *nvlocked)
+tpm_is_owned	tpm_test.c	/^static int tpm_is_owned(void)$/;"	f	language:C	file:	signature:(void)
+tpm_nv_set_locked	tpm_test.c	/^static uint32_t tpm_nv_set_locked(void)$/;"	f	language:C	file:	signature:(void)
+tpm_nv_write_value_lock	tpm_test.c	/^static uint32_t tpm_nv_write_value_lock(uint32_t index)$/;"	f	language:C	file:	signature:(uint32_t index)
+tpm_set_global_lock	tpm_test.c	/^static uint32_t tpm_set_global_lock(void)$/;"	f	language:C	file:	signature:(void)
+track	fdc.c	/^	unsigned int track;	\/* nr of tracks *\/$/;"	m	language:C	struct:__anon5	file:
+true	test.c	185;"	d	language:C	file:
+trusted	mvebu/bubt.c	/^	u32	trusted;$/;"	m	language:C	struct:common_tim_data	file:
+tsi148_eval_vam	tsi148.c	/^unsigned int tsi148_eval_vam(int vam)$/;"	f	language:C	signature:(int vam)
+tsi148_init	tsi148.c	/^int tsi148_init(void)$/;"	f	language:C	signature:(void)
+tsi148_pci_slave_window	tsi148.c	/^int tsi148_pci_slave_window(unsigned int pciAddr, unsigned int vmeAddr,$/;"	f	language:C	signature:(unsigned int pciAddr, unsigned int vmeAddr, int size, int vam, int vdw)
+tsi148_vme_crcsr_window	tsi148.c	/^int tsi148_vme_crcsr_window(unsigned int vmeAddr)$/;"	f	language:C	signature:(unsigned int vmeAddr)
+tsi148_vme_crg_window	tsi148.c	/^int tsi148_vme_crg_window(unsigned int vmeAddr, int vam)$/;"	f	language:C	signature:(unsigned int vmeAddr, int vam)
+tsi148_vme_gcsr_window	tsi148.c	/^int tsi148_vme_gcsr_window(unsigned int vmeAddr, int vam)$/;"	f	language:C	signature:(unsigned int vmeAddr, int vam)
+tsi148_vme_slave_window	tsi148.c	/^int tsi148_vme_slave_window(unsigned int vmeAddr, unsigned int pciAddr,$/;"	f	language:C	signature:(unsigned int vmeAddr, unsigned int pciAddr, int size, int vam)
+type	pxe.c	/^	enum token_type type;$/;"	m	language:C	struct:token	typeref:enum:token::token_type	file:
+type_name	efi.c	/^static const char *const type_name[] = {$/;"	v	language:C	file:
+type_string_alloc	tpm.c	/^static void *type_string_alloc(const char *type_str, uint32_t *count)$/;"	f	language:C	file:	signature:(const char *type_str, uint32_t *count)
+type_string_get_num_values	tpm.c	/^static int type_string_get_num_values(const char *type_str)$/;"	f	language:C	file:	signature:(const char *type_str)
+type_string_get_space_size	tpm.c	/^static size_t type_string_get_space_size(const char *type_str)$/;"	f	language:C	file:	signature:(const char *type_str)
+type_string_pack	tpm.c	/^static int type_string_pack(const char *type_str, char * const values[],$/;"	f	language:C	file:	signature:(const char *type_str, char * const values[], uint8_t *data)
+type_string_write_vars	tpm.c	/^static int type_string_write_vars(const char *type_str, uint8_t *data,$/;"	f	language:C	file:	signature:(const char *type_str, uint8_t *data, char * const vars[])
+uart_cfg	mvebu/bubt.c	/^	u8	uart_cfg;		\/*  32   *\/$/;"	m	language:C	struct:mvebu_image_header	file:
+ubi	ubi.c	/^static struct ubi_device *ubi;$/;"	v	language:C	typeref:struct:ubi_device	file:
+ubi_check	ubi.c	/^static int ubi_check(char *name)$/;"	f	language:C	file:	signature:(char *name)
+ubi_check_volumename	ubi.c	/^static int ubi_check_volumename(const struct ubi_volume *vol, char *name)$/;"	f	language:C	file:	signature:(const struct ubi_volume *vol, char *name)
+ubi_create_vol	ubi.c	/^static int ubi_create_vol(char *volume, int64_t size, int dynamic, int vol_id)$/;"	f	language:C	file:	signature:(char *volume, int64_t size, int dynamic, int vol_id)
+ubi_detach	ubi.c	/^int ubi_detach(void)$/;"	f	language:C	signature:(void)
+ubi_dev	ubi.c	/^static struct selected_dev ubi_dev;$/;"	v	language:C	typeref:struct:selected_dev	file:
+ubi_dev_scan	ubi.c	/^static int ubi_dev_scan(struct mtd_info *info, char *ubidev,$/;"	f	language:C	file:	signature:(struct mtd_info *info, char *ubidev, const char *vid_header_offset)
+ubi_find_volume	ubi.c	/^static struct ubi_volume *ubi_find_volume(char *volume)$/;"	f	language:C	file:	signature:(char *volume)
+ubi_info	ubi.c	/^static int ubi_info(int layout)$/;"	f	language:C	file:	signature:(int layout)
+ubi_initialized	ubi.c	/^static int ubi_initialized;$/;"	v	language:C	file:
+ubi_msg	ubi.c	27;"	d	language:C	file:
+ubi_msg	ubi.c	28;"	d	language:C	file:
+ubi_part	ubi.c	/^int ubi_part(char *part_name, const char *vid_header_offset)$/;"	f	language:C	signature:(char *part_name, const char *vid_header_offset)
+ubi_remove_vol	ubi.c	/^static int ubi_remove_vol(char *volume)$/;"	f	language:C	file:	signature:(char *volume)
+ubi_volume_begin_write	ubi.c	/^int ubi_volume_begin_write(char *volume, void *buf, size_t size,$/;"	f	language:C	signature:(char *volume, void *buf, size_t size, size_t full_size)
+ubi_volume_continue_write	ubi.c	/^static int ubi_volume_continue_write(char *volume, void *buf, size_t size)$/;"	f	language:C	file:	signature:(char *volume, void *buf, size_t size)
+ubi_volume_read	ubi.c	/^int ubi_volume_read(char *volume, char *buf, size_t size)$/;"	f	language:C	signature:(char *volume, char *buf, size_t size)
+ubi_volume_write	ubi.c	/^int ubi_volume_write(char *volume, void *buf, size_t size)$/;"	f	language:C	signature:(char *volume, void *buf, size_t size)
+ubifs_initialized	ubifs.c	/^static int ubifs_initialized;$/;"	v	language:C	file:
+ubifs_is_mounted	ubifs.c	/^int ubifs_is_mounted(void)$/;"	f	language:C	signature:(void)
+ubifs_mounted	ubifs.c	/^static int ubifs_mounted;$/;"	v	language:C	file:
+ums	usb_mass_storage.c	/^static struct ums *ums;$/;"	v	language:C	typeref:struct:ums	file:
+ums_count	usb_mass_storage.c	/^static int ums_count;$/;"	v	language:C	file:
+ums_fini	usb_mass_storage.c	/^static void ums_fini(void)$/;"	f	language:C	file:	signature:(void)
+ums_init	usb_mass_storage.c	/^static int ums_init(const char *devtype, const char *devnums_part_str)$/;"	f	language:C	file:	signature:(const char *devtype, const char *devnums_part_str)
+ums_read_sector	usb_mass_storage.c	/^static int ums_read_sector(struct ums *ums_dev,$/;"	f	language:C	file:	signature:(struct ums *ums_dev, ulong start, lbaint_t blkcnt, void *buf)
+ums_write_sector	usb_mass_storage.c	/^static int ums_write_sector(struct ums *ums_dev,$/;"	f	language:C	file:	signature:(struct ums *ums_dev, ulong start, lbaint_t blkcnt, const void *buf)
+universe_init	universe.c	/^int universe_init(void)$/;"	f	language:C	signature:(void)
+universe_pci_slave_window	universe.c	/^int universe_pci_slave_window(unsigned int pciAddr, unsigned int vmeAddr, int size, int vam, int pms, int vdw)$/;"	f	language:C	signature:(unsigned int pciAddr, unsigned int vmeAddr, int size, int vam, int pms, int vdw)
+universe_vme_slave_window	universe.c	/^int universe_vme_slave_window(unsigned int vmeAddr, unsigned int pciAddr, int size, int vam, int pms)$/;"	f	language:C	signature:(unsigned int vmeAddr, unsigned int pciAddr, int size, int vam, int pms)
+untochar	load.c	405;"	d	language:C	file:
+uregs	tsi148.c	/^	TSI148       *uregs;$/;"	m	language:C	struct:_TSI148_DEV	file:
+uregs	universe.c	/^	UNIVERSE       *uregs;$/;"	m	language:C	struct:_UNI_DEV	file:
+usb_dev_func_t	usb.c	/^typedef void (*usb_dev_func_t)(struct usb_device *udev);$/;"	t	language:C	file:
+usb_display_class_sub	usb.c	/^static void usb_display_class_sub(unsigned char dclass, unsigned char subclass,$/;"	f	language:C	file:	signature:(unsigned char dclass, unsigned char subclass, unsigned char proto)
+usb_display_conf_desc	usb.c	/^static void usb_display_conf_desc(struct usb_config_descriptor *config,$/;"	f	language:C	file:	signature:(struct usb_config_descriptor *config, struct usb_device *dev)
+usb_display_config	usb.c	/^static void usb_display_config(struct usb_device *dev)$/;"	f	language:C	file:	signature:(struct usb_device *dev)
+usb_display_desc	usb.c	/^static void usb_display_desc(struct usb_device *dev)$/;"	f	language:C	file:	signature:(struct usb_device *dev)
+usb_display_ep_desc	usb.c	/^static void usb_display_ep_desc(struct usb_endpoint_descriptor *epdesc)$/;"	f	language:C	file:	signature:(struct usb_endpoint_descriptor *epdesc)
+usb_display_if_desc	usb.c	/^static void usb_display_if_desc(struct usb_interface_descriptor *ifdesc,$/;"	f	language:C	file:	signature:(struct usb_interface_descriptor *ifdesc, struct usb_device *dev)
+usb_display_string	usb.c	/^static void usb_display_string(struct usb_device *dev, int index)$/;"	f	language:C	file:	signature:(struct usb_device *dev, int index)
+usb_ether_curr_dev	usb.c	/^static int __maybe_unused usb_ether_curr_dev = -1; \/* current ethernet device *\/$/;"	v	language:C	file:
+usb_find_device	usb.c	/^static struct usb_device *usb_find_device(int devnum)$/;"	f	language:C	file:	signature:(int devnum)
+usb_for_each_root_dev	usb.c	/^static void usb_for_each_root_dev(usb_dev_func_t func)$/;"	f	language:C	file:	signature:(usb_dev_func_t func)
+usb_get_class_desc	usb.c	/^static char *usb_get_class_desc(unsigned char dclass)$/;"	f	language:C	file:	signature:(unsigned char dclass)
+usb_read_file	mvebu/bubt.c	/^static size_t usb_read_file(const char *file_name)$/;"	f	language:C	file:	signature:(const char *file_name)
+usb_show_info	usb.c	/^static void usb_show_info(struct usb_device *udev)$/;"	f	language:C	file:	signature:(struct usb_device *udev)
+usb_show_subtree	usb.c	/^static void usb_show_subtree(struct usb_device *dev)$/;"	f	language:C	file:	signature:(struct usb_device *dev)
+usb_show_tree	usb.c	/^void usb_show_tree(void)$/;"	f	language:C	signature:(void)
+usb_show_tree_graph	usb.c	/^static void usb_show_tree_graph(struct usb_device *dev, char *pre)$/;"	f	language:C	file:	signature:(struct usb_device *dev, char *pre)
+usb_stor_curr_dev	usb.c	/^static int usb_stor_curr_dev = -1; \/* current device *\/$/;"	v	language:C	file:
+usb_test	usb.c	/^static int usb_test(struct usb_device *dev, int port, char* arg)$/;"	f	language:C	file:	signature:(struct usb_device *dev, int port, char* arg)
+use_defaults	mtdparts.c	/^u8 use_defaults;$/;"	v	language:C
+val	pxe.c	/^	char *val;$/;"	m	language:C	struct:token	file:
+valid_elf_image	elf.c	/^int valid_elf_image(unsigned long addr)$/;"	f	language:C	signature:(unsigned long addr)
+verify_mkvol_req	ubi.c	/^static int verify_mkvol_req(const struct ubi_device *ubi,$/;"	f	language:C	file:	signature:(const struct ubi_device *ubi, const struct ubi_mkvol_req *req)
+version	armflash.c	/^	u32 version;$/;"	m	language:C	struct:afs_image	file:
+version	mvebu/bubt.c	/^	u32	version;$/;"	m	language:C	struct:common_tim_data	file:
+version_string	version.c	/^const char __weak version_string[] = U_BOOT_VERSION_STRING;$/;"	v	language:C
+wait_for_fdc_int	fdc.c	/^int wait_for_fdc_int(void)$/;"	f	language:C	signature:(void)
+weekdays	date.c	/^static const char * const weekdays[] = {$/;"	v	language:C	file:
+working_fdt	fdt.c	/^struct fdt_header *working_fdt;$/;"	v	language:C	typeref:struct:fdt_header
+write	mvebu/bubt.c	/^	int (*write)(size_t image_size);$/;"	m	language:C	struct:bubt_dev	file:
+write_fdc_byte	fdc.c	/^int write_fdc_byte(unsigned char val)$/;"	f	language:C	signature:(unsigned char val)
+write_fdc_reg	fdc.c	/^void write_fdc_reg(unsigned int addr, unsigned char val)$/;"	f	language:C	signature:(unsigned int addr, unsigned char val)
+write_record	load.c	/^static int write_record(char *buf)$/;"	f	language:C	file:	signature:(char *buf)
+zfs_print	zfs.c	/^int zfs_print(const char *entry, const struct zfs_dirhook_info *data)$/;"	f	language:C	signature:(const char *entry, const struct zfs_dirhook_info *data)

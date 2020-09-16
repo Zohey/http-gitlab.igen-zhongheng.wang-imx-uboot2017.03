@@ -1,0 +1,7 @@
+MYIR_IMX6ULL BOARD
+M:	Peng Fan <peng.fan@nxp.com>
+S:	Maintained
+F:	board/100ask/myir_imx6ull
+F:	include/configs/myir_imx6ull.h
+F:	configs/100ask_myir_imx6ull_mini_defconfig
+F:	configs/100ask_myir_imx6ull_mini_nand_defconfig
